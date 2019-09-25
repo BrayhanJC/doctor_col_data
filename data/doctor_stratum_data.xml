@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="1">
+
+		<record model='doctor.stratum' id='001'>
+			<field name='name'>Alto</field>
+		</record>
+
+		<record model='doctor.stratum' id='020'>
+			<field name='name'>Bajo</field>
+		</record>
+
+		<record model='doctor.stratum' id='021'>
+			<field name='name'>Medio</field>
+		</record>
+
+		<record model='doctor.stratum' id='022'>
+			<field name='name'>Bajo - Bajo</field>
+		</record>
+
+		<record model='doctor.stratum' id='023'>
+			<field name='name'>Bajo - Medio</field>
+		</record>
+
+		<record model='doctor.stratum' id='040'>
+			<field name='name'>Bajo - Alto</field>
+		</record>
+
+		<record model='doctor.stratum' id='041'>
+			<field name='name'>Medio - Bajo</field>
+		</record>
+
+		<record model='doctor.stratum' id='042'>
+			<field name='name'>Medio - Medio</field>
+		</record>
+
+		<record model='doctor.stratum' id='043'>
+			<field name='name'>Medio - Alto</field>
+		</record>
+
+		<record model='doctor.stratum' id='044'>
+			<field name='name'>Alto - Bajo</field>
+		</record>
+
+		<record model='doctor.stratum' id='045'>
+			<field name='name'>Alto - Medio</field>
+		</record>
+
+		<record model='doctor.stratum' id='046'>
+			<field name='name'>Alto - Alto</field>
+		</record>
+
+	</data>
+</odoo>

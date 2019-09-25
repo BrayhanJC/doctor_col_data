@@ -1,0 +1,3316 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* doctor_col
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-19 21:58+0000\n"
+"PO-Revision-Date: 2019-09-19 21:58+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__supplier_invoice_count
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__supplier_invoice_count
+msgid "# Vendor Bills"
+msgstr "# Facturas de proveedores"
+
+
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__property_account_payable_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__property_account_payable_id
+msgid "Account Payable"
+msgstr "Cuenta a pagar"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__property_account_receivable_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__property_account_receivable_id
+msgid "Account Receivable"
+msgstr "Cuenta a cobrar"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__message_needaction
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__message_needaction
+msgid "Action Needed"
+msgstr "Acción Necesaria"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__active
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__activity_ids
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__activity_ids
+msgid "Activities"
+msgstr "Actividades"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__activity_state
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__activity_state
+msgid "Activity State"
+msgstr "Estado de la actividad"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__additional_info
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__additional_info
+msgid "Additional info"
+msgstr "Información Adicional"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__type
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__type
+msgid "Address Type"
+msgstr "Tipo de dirección"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_administration_route__name
+#: model:ir.model.fields,field_description:doctor_col.field_product_product__doctor_administration_route_id
+#: model:ir.model.fields,field_description:doctor_col.field_product_template__doctor_administration_route_id
+#: model:ir.ui.menu,name:doctor_col.clinic_menu_administration_route
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_administration_route_view_form
+msgid "Administration Route"
+msgstr "Vía de Administración"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_appointment__patient_age
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__patient_age
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__age
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__age
+msgid "Age"
+msgstr "Edad"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_appointment_view_kanban
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_patient_view_kanban
+msgid "Age:"
+msgstr "Edad:"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__alias_id
+msgid "Alias"
+msgstr "Seudónimo"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__alias_contact
+msgid "Alias Contact Security"
+msgstr "Seudónimo del contacto de seguridad"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__lang
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__lang
+msgid "All the emails and documents sent to this contact will be translated in this language."
+msgstr "Todos los correos electrónicos y documentos enviados a este contacto se traducirán en este idioma."
+
+#. module: doctor_col
+#: selection:doctor.patient,laterality:0
+msgid "Ambidextrous"
+msgstr "Ambidiestro"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__analysis
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Analysis"
+msgstr "Análisis"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Analysis and Behavior"
+msgstr "Análisis y Conducta"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Anamnesis"
+msgstr "Anamnesis"
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_antecedent_form_action
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_antecedent_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_antecedent_view_tree
+msgid "Antecedent"
+msgstr "Antecedente"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__doctor_antecedent_ids
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Antecedents"
+msgstr "Antecedentes"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__doctor_antecedent_pathological_ids
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Antecedents Pathologicals"
+msgstr "Antecedentes Patológicos"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__doctor_antecedent_pharmacological_ids
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Antecedents Pharmacologicals"
+msgstr "Antecedentes Farmacológicos"
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_appoinment_form_action
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_appoinment_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_appoinment_view_tree
+msgid "Appoinment"
+msgstr "Cita"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_appoinment_view_form
+msgid "Appoinment Duration"
+msgstr "Duración Cita"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_type_antecedent__name
+msgid "Appoinment Type"
+msgstr "Tipo de Cita"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_schedule__appointment_ids
+msgid "Appointment"
+msgstr "Cita"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_appointment__product_appoinment_type_id
+msgid "Appointment Type"
+msgstr "Tipo de Cita"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_schedule_view_form
+msgid "Appointment of the Schedule"
+msgstr "Citas de la Agenda"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_schedule_view_form
+msgid "Appointments"
+msgstr "Citas"
+
+#. module: doctor_col
+#: selection:doctor.schedule_space,state:0
+msgid "Assigned"
+msgstr "Asignado"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_appointment_view_kanban
+msgid "Assist"
+msgstr "Asiste"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_appointment_view_kanban
+msgid "Assists"
+msgstr "Asiste"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__message_attachment_count
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__message_attachment_count
+msgid "Attachment Count"
+msgstr "Conteo de archivos adjuntos"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_appointment_view_kanban
+msgid "Attend"
+msgstr "Atender"
+
+#. module: doctor_col
+#: selection:doctor.appointment,state:0
+msgid "Attending"
+msgstr "Atendido"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_antecedent__attention_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_atc__attention_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_diagnostic__attention_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_diagnostic__attention_previous_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_disability__attention_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_diseases__attention_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_health_procedures__attention_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_physical_exam__attention_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_review_system__attention_id
+msgid "Attention"
+msgstr "Atención"
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_attention_form_action
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__name
+#: model:ir.ui.menu,name:doctor_col.clinic_menu_attentions
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_tree
+msgid "Attentions"
+msgstr "Atenciones"
+
+#. module: doctor_col
+#: selection:doctor.schedule_space,state:0
+msgid "Available"
+msgstr "Disponible"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_appointment_view_kanban
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_doctor_view_kanban
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_patient_view_kanban
+msgid "Avatar"
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__bank_account_count
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__bank_account_count
+msgid "Bank"
+msgstr "Banco"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__bank_ids
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__bank_ids
+msgid "Banks"
+msgstr "Bancos"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__barcode
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__barcode
+msgid "Barcode"
+msgstr "Código de barras"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__behavior
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Behavior"
+msgstr "Conducta"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__xbirthday
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__xbirthday
+msgid "Birthday"
+msgstr "Fecha de Nacimiento"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_patient_view_form
+msgid "Birthplace"
+msgstr "Lugar de Nacimiento"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__is_blacklisted
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__is_blacklisted
+msgid "Blacklist"
+msgstr "Lista negra"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Blood Pressure"
+msgstr "Presión Snaguínea"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__blood_type
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__blood_type_
+msgid "Blood Type"
+msgstr "Tipo de Sangre"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__body_mass_index
+msgid "Body Mass Index"
+msgstr "Índice de Masa Corporal"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__body_surface
+msgid "Body Surface"
+msgstr "Surpeficie Corporal"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__message_bounce
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__message_bounce
+msgid "Bounce"
+msgstr "Rebote"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__companyBrandName
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__companyBrandName
+msgid "Brand"
+msgstr "Marca"
+
+#. module: doctor_col
+#: selection:doctor.appointment,state:0
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__change_country
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__change_country
+msgid "Change Country / Department?"
+msgstr "Cambiar País/Dpt./Ciudad?"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__channel_ids
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__channel_ids
+msgid "Channels"
+msgstr "Canales"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__is_company
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__is_company
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr "Marque esta casilla si el contacto es una compañía. En caso contrario, es una persona."
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__customer
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__customer
+msgid "Check this box if this contact is a customer. It can be selected in sales orders."
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__supplier
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__supplier
+msgid "Check this box if this contact is a vendor. It can be selected in purchase orders."
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__employee
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__employee
+msgid "Check this box if this contact is an Employee."
+msgstr "Marque si el contacto es un empleado"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__city_of_residence_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__city_of_birth_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__city_of_residence_id
+msgid "City"
+msgstr "Ciudad"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__city
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__city
+msgid "City Name"
+msgstr "Ciudad"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__civil_status
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__civil_status
+msgid "Civil Status"
+msgstr "Estado Civíl"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Clinical Records"
+msgstr "Registros Clínicos"
+
+#. module: doctor_col
+#: selection:product.template,procedure_type:0
+msgid "Clinical laboratory"
+msgstr "Laboratorio Clínico"
+
+#. module: doctor_col
+#: selection:doctor.attention,state:0
+msgid "Closed"
+msgstr "Cerrado"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_administration_route__code
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_atc__code
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_diseases__code
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_pharmaceutical_form__code
+#: model:ir.model.fields,field_description:doctor_col.field_product_product__procedure_code
+#: model:ir.model.fields,field_description:doctor_col.field_product_template__procedure_code
+msgid "Code"
+msgstr "Código"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__color
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__color
+msgid "Color Index"
+msgstr "Índice de Colores"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__commercial_partner_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__commercial_partner_id
+msgid "Commercial Entity"
+msgstr "Entidad comercial"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__company_ids
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__ref_company_ids
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__ref_company_ids
+msgid "Companies that refers to partner"
+msgstr "Compañías que se refieren a la empresa"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__company_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__company_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__company_name
+msgid "Company Name"
+msgstr "Nombre de la compañía"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__commercial_company_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__commercial_company_name
+msgid "Company Name Entity"
+msgstr "Entidad del nombre de la compañía"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__companyType
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__company_type
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__companyType
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__company_type
+msgid "Company Type"
+msgstr "Tipo de compañía"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__partner_gid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__partner_gid
+msgid "Company database ID"
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__contact_address
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__contact_address
+msgid "Complete Address"
+msgstr "Dirección completa"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_product_product__complexity_level
+#: model:ir.model.fields,field_description:doctor_col.field_product_template__complexity_level
+msgid "Complexity Level"
+msgstr "Nivel de Complejidad"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_product_product__drugs_concentration
+#: model:ir.model.fields,field_description:doctor_col.field_product_template__drugs_concentration
+msgid "Concentration"
+msgstr "Concentración"
+
+#. module: doctor_col
+#: model:ir.ui.menu,name:doctor_col.clinic_menu_configuration_root
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: doctor_col
+#: selection:doctor.appointment,state:0
+#: selection:doctor.diagnostic,state:0
+msgid "Confirmed"
+msgstr "Confirmado"
+
+#. module: doctor_col
+#: selection:product.template,procedure_type:0
+msgid "Consultation"
+msgstr "Consulta"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__child_ids
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__child_ids
+msgid "Contacts"
+msgstr "Contactos"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__contracts_count
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__contracts_count
+msgid "Contracts Count"
+msgstr "Numero de contratos"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__payment_token_count
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__payment_token_count
+msgid "Count Payment Token"
+msgstr "Cuenta Token de Pago"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__message_bounce
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__message_bounce
+msgid "Counter of the number of bounced emails for this contact"
+msgstr "Contador del número de correos electrónicos rebotados de este contacto"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__country_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__country_of_residence_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__country_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__country_of_birth_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__country_of_residence_id
+msgid "Country"
+msgstr "País"
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_antecedent_form_action
+msgid "Create a new Antecedent"
+msgstr "Crear un nuevo Antecedente"
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_appoinment_form_action
+msgid "Create a new Appoinment"
+msgstr "Crear una nueva Cita"
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_attention_form_action
+msgid "Create a new Attentions"
+msgstr "Crear una nueva Atención"
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_diagnostic_form_action
+msgid "Create a new Diagnostic"
+msgstr "Crear un nuevo Diagnóstico"
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_disability_form_action
+msgid "Create a new Disability"
+msgstr "Crear una nueva Incapacidad"
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_diseases_form_action
+msgid "Create a new Diseases"
+msgstr "Crear una nueva Enfermedad"
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_doctor_form_action
+msgid "Create a new Doctor"
+msgstr "Crear un nuevo Doctor"
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_administration_route_form_action
+msgid "Create a new Doctor Administration Route"
+msgstr "Crear una nueva Ruta de Administración"
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_type_antecedent_form_action
+msgid "Create a new Doctor Type Antecedent"
+msgstr "Crear un nuevo Tipo de Antecedente"
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_type_review_system_form_action
+msgid "Create a new Doctor Type Review System"
+msgstr "Crear un nuevo Tipo de Revisión por Sistemas"
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_drugs_action
+msgid "Create a new Drug"
+msgstr "Crear un nuevo Medicamento"
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_health_procedure_action
+msgid "Create a new Healt Procedure"
+msgstr "Crear un nuevo Procedimiento Médico"
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_health_procedures_form_action
+msgid "Create a new Health Procedures"
+msgstr "Crear un nuevo Procedimientos Médicos"
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_patient_form_action
+msgid "Create a new Patient"
+msgstr "Crear un nuevo Paciente"
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_pharmaceutical_form_form_action
+msgid "Create a new Pharmaceutical Form"
+msgstr "Crear una nueva Forma Farmaceutica"
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_physical_exam_form_action
+msgid "Create a new Physical Exam"
+msgstr "Crear un nuevo Exámen Físico"
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_profession_form_action
+msgid "Create a new Profession"
+msgstr "Crear una nueva Profesión"
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_review_system_form_action
+msgid "Create a new Review System"
+msgstr "Crear una nueva Revisión por Sistemas"
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_schedule_form_action
+msgid "Create a new Schedule"
+msgstr "Crear una nueva Agenda"
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_schedule_space_form_action
+msgid "Create a new Schedule Space"
+msgstr "Crear un nuevo Espacio de Agenda"
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_speciality_form_action
+msgid "Create a new Speciality"
+msgstr "Crear una nueva Especialidad"
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_stratum_form_action
+msgid "Create a new Stratum"
+msgstr "Crear un nuevo Estrato"
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_type_appoinment_action
+msgid "Create a new Type Appoinment"
+msgstr ""
+
+#. module: doctor_col
+#: model_terms:ir.actions.act_window,help:doctor_col.doctor_type_physical_exam_form_action
+msgid "Create a new Type Physical Exam"
+msgstr "Crear un nuevo Tupo de Exámen Físico"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_administration_route__create_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_antecedent__create_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_appointment__create_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_atc__create_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__create_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_diagnostic__create_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_disability__create_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_diseases__create_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__create_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_health_procedures__create_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__create_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_pharmaceutical_form__create_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_physical_exam__create_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_profession__create_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_review_system__create_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_schedule__create_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_schedule_space__create_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_speciality__create_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_stratum__create_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_type_antecedent__create_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_type_physical_exam__create_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_type_review_system__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_administration_route__create_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_antecedent__create_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_appointment__create_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_atc__create_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__create_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_diagnostic__create_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_disability__create_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_diseases__create_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__create_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_health_procedures__create_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__create_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_pharmaceutical_form__create_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_physical_exam__create_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_profession__create_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_review_system__create_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_schedule__create_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_schedule_space__create_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_speciality__create_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_stratum__create_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_type_antecedent__create_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_type_physical_exam__create_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_type_review_system__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__credit_limit
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__credit_limit
+msgid "Credit Limit"
+msgstr "Crédito límite"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__currency_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__current_disease
+msgid "Current Disease"
+msgstr "Enfermedad Actual"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__property_payment_term_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__property_payment_term_id
+msgid "Customer Payment Terms"
+msgstr "Plazo de pago de cliente"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__date
+msgid "Date"
+msgstr "Fecha"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__date_attention
+msgid "Date Attention"
+msgstr "Fecha Atención"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_disability__date_begin
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_schedule__date_begin
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_schedule_space__date_begin
+msgid "Date Begin"
+msgstr "Fecha Inicio"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_disability__date_end
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_schedule__date_end
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_schedule_space__date_end
+msgid "Date End"
+msgstr "Fecha Fin"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__trust
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__trust
+msgid "Degree of trust you have in this debtor"
+msgstr "Grado de confianza para este deudor"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Describe other symptoms"
+msgstr "Describir otros síntomas"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Describe the Analysis"
+msgstr "Describir el Análisis"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Describe the Behaviour"
+msgstr "Describir la Conducta"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Describe the current disease"
+msgstr "Describir la enfermedad actual"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Describe the reason for consultation"
+msgstr "Describir la razón de la consulta"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_physical_exam__description
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_review_system__description
+#: model:ir.model.fields,field_description:doctor_col.field_product_product__procedure_description
+#: model:ir.model.fields,field_description:doctor_col.field_product_template__procedure_description
+msgid "Description"
+msgstr "Descripción"
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_diagnostic_form_action
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__doctor_dianostic_ids
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__doctor_dianostic_previous_ids
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_diagnostic__doctor_diseases_id
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_diagnostic_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_diagnostic_view_tree
+msgid "Diagnostic"
+msgstr "Diagnóstico"
+
+#. module: doctor_col
+#: model:ir.ui.menu,name:doctor_col.clinic_menu_diagnostic
+msgid "Diagnostic (CIE-10)"
+msgstr "Diagnóstico (CIE-10)"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Diagnostic Aids"
+msgstr "Ayudas Diagnósticas"
+
+#. module: doctor_col
+#: selection:product.template,procedure_type:0
+msgid "Diagnostic Image"
+msgstr "Imagenes Diagnósticas"
+
+#. module: doctor_col
+#: selection:doctor.diagnostic,state:0
+msgid "Diagnostic Impression"
+msgstr "Impresión Diagnóstica"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Diagnostic Previous"
+msgstr "Diagnósticos Anteriores"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_atc__name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_diseases__name
+msgid "Diagnotic"
+msgstr "Diagnóstico"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__diastolic
+msgid "Diastolic Pressure"
+msgstr "Presión Diastólica"
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_disability_form_action
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__doctor_disability
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_disability_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_disability_view_tree
+msgid "Disability"
+msgstr "Incapacidad"
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_diseases_form_action
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_diseases_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_diseases_view_tree
+msgid "Diseases"
+msgstr "Enfermedades"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_administration_route__display_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_antecedent__display_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_appointment__display_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_atc__display_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__display_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_diagnostic__display_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_disability__display_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_diseases__display_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__display_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_health_procedures__display_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__display_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_pharmaceutical_form__display_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_physical_exam__display_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_profession__display_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_review_system__display_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_schedule__display_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_schedule_space__display_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_speciality__display_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_stratum__display_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_type_antecedent__display_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_type_physical_exam__display_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_type_review_system__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: doctor_col
+#: selection:doctor.doctor,civil_status:0
+#: selection:doctor.patient,civil_status:0
+msgid "Divorced"
+msgstr "Divorciado"
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_doctor_form_action
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_appointment__doctor_doctor_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__doctor_doctor_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_schedule__doctor_doctor_id
+#: model:ir.ui.menu,name:doctor_col.clinic_menu_doctor
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_doctor_view_form
+msgid "Doctor"
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.model,name:doctor_col.model_doctor_atc
+msgid "Doctor ATC"
+msgstr "ATC"
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_administration_route_form_action
+#: model:ir.model,name:doctor_col.model_doctor_administration_route
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_administration_route_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_administration_route_view_tree
+msgid "Doctor Administration Route"
+msgstr "Vía de Administración"
+
+#. module: doctor_col
+#: model:ir.model,name:doctor_col.model_doctor_appointment
+msgid "Doctor Appoinment"
+msgstr "Cita"
+
+#. module: doctor_col
+#: model:ir.model,name:doctor_col.model_doctor_attention
+msgid "Doctor Attentions"
+msgstr "Atenciones"
+
+#. module: doctor_col
+#: model:ir.module.category,name:doctor_col.module_doctor_configuration
+msgid "Doctor Configuration"
+msgstr "Doctor Configuración"
+
+#. module: doctor_col
+#: model:ir.model,name:doctor_col.model_doctor_diagnostic
+msgid "Doctor Diagnostic"
+msgstr "Diagnóstico"
+
+#. module: doctor_col
+#: model:ir.model,name:doctor_col.model_doctor_disability
+msgid "Doctor Disability"
+msgstr "Incapacidad"
+
+#. module: doctor_col
+#: model:ir.model,name:doctor_col.model_doctor_diseases
+msgid "Doctor Diseases"
+msgstr "Enfermedades"
+
+#. module: doctor_col
+#: model:ir.model,name:doctor_col.model_doctor_doctor
+msgid "Doctor Doctor"
+msgstr "Doctor"
+
+#. module: doctor_col
+#: model:ir.model,name:doctor_col.model_doctor_health_procedures
+msgid "Doctor Health Procedures"
+msgstr "Procedimientos Médicos"
+
+#. module: doctor_col
+#: model:ir.model,name:doctor_col.model_doctor_patient
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_appointment__doctor_patient_id
+msgid "Doctor Patient"
+msgstr "Paciente"
+
+#. module: doctor_col
+#: model:ir.model,name:doctor_col.model_doctor_pharmaceutical_form
+msgid "Doctor Pharmaceutical Form"
+msgstr "Forma Farmaceutica"
+
+#. module: doctor_col
+#: model:ir.model,name:doctor_col.model_doctor_physical_exam
+msgid "Doctor Physical Exam"
+msgstr "Exámen Físico"
+
+#. module: doctor_col
+#: model:ir.model,name:doctor_col.model_doctor_profession
+msgid "Doctor Profession"
+msgstr "Profesión"
+
+#. module: doctor_col
+#: model:ir.model,name:doctor_col.model_doctor_review_system
+msgid "Doctor Review System"
+msgstr "Revisión por Sistemas"
+
+#. module: doctor_col
+#: model:ir.model,name:doctor_col.model_doctor_schedule
+msgid "Doctor Schedule"
+msgstr "Agenda"
+
+#. module: doctor_col
+#: model:ir.model,name:doctor_col.model_doctor_schedule_space
+msgid "Doctor Schedule Space"
+msgstr "Espacio Agenda"
+
+#. module: doctor_col
+#: model:ir.model,name:doctor_col.model_doctor_speciality
+msgid "Doctor Speciality"
+msgstr "Especialidad"
+
+#. module: doctor_col
+#: model:ir.model,name:doctor_col.model_doctor_stratum
+msgid "Doctor Stratum"
+msgstr "Estrato"
+
+#. module: doctor_col
+#: model:ir.model,name:doctor_col.model_doctor_type_antecedent
+msgid "Doctor Type Antecedent"
+msgstr "Tipo Antecedente"
+
+#. module: doctor_col
+#: model:ir.model,name:doctor_col.model_doctor_type_physical_exam
+msgid "Doctor Type Physical Exam"
+msgstr "Tipo Exámen Físico"
+
+#. module: doctor_col
+#: model:ir.model,name:doctor_col.model_doctor_antecedent
+#: model:ir.model,name:doctor_col.model_doctor_type_review_system
+msgid "Doctor Type Review System"
+msgstr "Tipo Revisión por Sistemas"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Doctype"
+msgstr "Tipo Documento"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__xidentification
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__xidentification
+msgid "Document Number"
+msgstr "Número de Documento"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_appointment__patient_doctype
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__doctor_doctype
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__patient_doctype
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__l10n_co_document_type
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__l10n_co_document_type
+msgid "Document Type"
+msgstr "Tipo Documento"
+
+#. module: doctor_col
+#: model:ir.ui.menu,name:doctor_col.clinic_menu_dosage_unit
+msgid "Dosage Unit"
+msgstr "Unidad de Dosificación"
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_drugs_action
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__product_drugs_ids
+#: model:ir.ui.menu,name:doctor_col.clinic_menu_conf_drugs
+#: model:ir.ui.menu,name:doctor_col.clinic_menu_drugs
+#: model_terms:ir.ui.view,arch_db:doctor_col.product_template_form_view_inherit
+#: model_terms:ir.ui.view,arch_db:doctor_col.product_template_search_view_inherit
+msgid "Drugs"
+msgstr "Medicamentos"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_product_product__duration
+#: model:ir.model.fields,field_description:doctor_col.field_product_template__duration
+msgid "Duration Appoinment (Minutes)"
+msgstr "Duración Cita (Minutos)"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_appointment__duration
+msgid "Duration Appointment (Minutes)"
+msgstr "Duración Cita (Minutos)"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_schedule__duration
+msgid "Duration Schedule (Hours)"
+msgstr "Duración Agenda (Horas)"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__dv
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__dv
+msgid "Dv"
+msgstr "DV"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__education_level
+msgid "Education Level"
+msgstr "Nivel de Educación"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__partner_share
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__partner_share
+msgid "Either customer (not a user), either shared user. Indicated the current partner is a customer without access or with a limited access created for sharing data."
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__email
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__email
+msgid "Email"
+msgstr "Correo electrónico"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__alias_id
+msgid "Email address internally associated with this user. Incoming emails will appear in the user's notifications."
+msgstr "Correo electrónico interno asociado al usuario. Los correo entrantes aparecerán como notificaciones de usuario."
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_doctor_view_kanban
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_patient_view_kanban
+msgid "Email:"
+msgstr "Correo electrónico:"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__employee
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__employee
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_appointment__date_end
+#: model:ir.model.fields,field_description:doctor_col.field_product_product__date_end
+#: model:ir.model.fields,field_description:doctor_col.field_product_template__date_end
+msgid "End time"
+msgstr "Fecha Fin"
+
+#. module: doctor_col
+#: selection:doctor.attention,external_cause:0
+msgid "Enfermedad general"
+msgstr ""
+
+#. module: doctor_col
+#: selection:doctor.attention,external_cause:0
+msgid "Enfermedad profesional"
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_appointment__patient_xidentification
+#: model:ir.model.fields,help:doctor_col.field_doctor_attention__doctor_xidentification
+#: model:ir.model.fields,help:doctor_col.field_doctor_attention__patient_xidentification
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__xidentification
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__xidentification
+msgid "Enter the Identification Number"
+msgstr "Ingresa el numero de identifcacion"
+
+#. module: doctor_col
+#: code:addons/doctor_col/models/doctor_doctor.py:370
+#: code:addons/doctor_col/models/doctor_patient.py:392
+#, python-format
+msgid "Error! Identification number can only have numbers"
+msgstr ""
+
+#. module: doctor_col
+#: code:addons/doctor_col/models/doctor_doctor.py:385
+#: code:addons/doctor_col/models/doctor_patient.py:407
+#, python-format
+msgid "Error! Identification number is mandatory"
+msgstr ""
+
+#. module: doctor_col
+#: code:addons/doctor_col/models/doctor_doctor.py:348
+#: code:addons/doctor_col/models/doctor_patient.py:370
+#, python-format
+msgid "Error! Number of digits in Identification number must bebetween 2 and 12"
+msgstr ""
+
+#. module: doctor_col
+#: code:addons/doctor_col/models/doctor_doctor.py:382
+#: code:addons/doctor_col/models/doctor_patient.py:404
+#, python-format
+msgid "Error! Please choose an identification type"
+msgstr ""
+
+#. module: doctor_col
+#: code:addons/doctor_col/models/doctor_doctor.py:401
+#: code:addons/doctor_col/models/doctor_patient.py:423
+#, python-format
+msgid "Error! Please enter the companys name"
+msgstr ""
+
+#. module: doctor_col
+#: code:addons/doctor_col/models/doctor_doctor.py:409
+#: code:addons/doctor_col/models/doctor_patient.py:431
+#, python-format
+msgid "Error! Please enter the name of the person"
+msgstr ""
+
+#. module: doctor_col
+#: code:addons/doctor_col/models/doctor_doctor.py:397
+#: code:addons/doctor_col/models/doctor_doctor.py:405
+#: code:addons/doctor_col/models/doctor_patient.py:419
+#: code:addons/doctor_col/models/doctor_patient.py:427
+#, python-format
+msgid "Error! Please enter the persons name"
+msgstr ""
+
+#. module: doctor_col
+#: code:addons/doctor_col/models/doctor_doctor.py:419
+#: code:addons/doctor_col/models/doctor_patient.py:441
+#, python-format
+msgid "Error! Please select a person type"
+msgstr ""
+
+#. module: doctor_col
+#: selection:doctor.attention,external_cause:0
+msgid "Evento Catastrófico"
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__external_cause
+msgid "External Cause"
+msgstr "Causa Externa"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__share
+msgid "External user with limited access, created only for the purpose of sharing data."
+msgstr "Usuario externo con acceso limitado, creado sólamente con el propósito de compartir datos."
+
+#. module: doctor_col
+#: selection:doctor.doctor,sex:0
+#: selection:doctor.patient,sex:0
+msgid "Female"
+msgstr "Femenino"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__x_name1
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__x_name1
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_doctor_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_patient_view_form
+msgid "First Name"
+msgstr "Primer Nombre"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__property_account_position_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__property_account_position_id
+msgid "Fiscal Position"
+msgstr "Posición Fiscal"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__message_follower_ids
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__message_channel_ids
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores (Canales)"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__message_partner_ids
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (Empresas)"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__is_foreign
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__is_foreign
+msgid "Foraneo"
+msgstr "Extranjero"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__email_formatted
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__email_formatted
+msgid "Format email address \"Name <email@domain>\""
+msgstr "Dirección de email con formato \"Nombre <email@domain>\""
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__email_formatted
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__email_formatted
+msgid "Formatted Email"
+msgstr "Email formateado"
+
+#. module: doctor_col
+#: selection:doctor.doctor,civil_status:0
+#: selection:doctor.patient,civil_status:0
+msgid "Free Union"
+msgstr "Unión Libre"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__has_unreconciled_entries
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__has_unreconciled_entries
+msgid "Has Unreconciled Entries"
+msgstr "Tiene entradas no conciliadas"
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_health_procedure_action
+#: model:ir.ui.menu,name:doctor_col.clinic_menu_healt_procedures
+msgid "Healt Procedures"
+msgstr "Procedimientos Médicos"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_schedule_view_form
+msgid "Healt Professional"
+msgstr "Profesional en la Salud"
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_health_procedures_form_action
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__doctor_health_procedures_ids
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_health_procedures__product_health_procedures_id
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_health_procedures_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_health_procedures_view_tree
+#: model_terms:ir.ui.view,arch_db:doctor_col.product_template_form_view_inherit
+#: model_terms:ir.ui.view,arch_db:doctor_col.product_template_search_view_inherit
+msgid "Health Procedures"
+msgstr "Procedimientos Médicos"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__heart_rate
+msgid "Heart Rate"
+msgstr "Frecuencia Cardíaca"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_attention__heart_rate
+msgid "Heart rate expressed in beats per minute"
+msgstr "Frecuencia Cardiaca Expresados en latidos por minuto"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__height
+msgid "Height (cm)"
+msgstr "Altura (cm)"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__action_id
+msgid "Home Action"
+msgstr "Acción inicial"
+
+#. module: doctor_col
+#: selection:product.template,procedure_type:0
+msgid "Hospitalization"
+msgstr "Hospitalización"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__im_status
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__im_status
+msgid "IM Status"
+msgstr "Estado del chat"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_appointment__patient_xidentification
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__doctor_xidentification
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__patient_xidentification
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_doctor_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_patient_view_form
+msgid "Identification"
+msgstr "Identificación"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_appointment_view_kanban
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_doctor_view_kanban
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_patient_view_kanban
+msgid "Identification:"
+msgstr "Identificación"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__message_unread
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__message_unread
+msgid "If checked new messages require your attention."
+msgstr "Si está marcado, hay nuevos mensajes que requieren su atención"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__message_needaction
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Si está marcado hay nuevos mensajes que requieren su atención."
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__message_has_error
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Si se encuentra marcado, algunos mensajes tienen error de envío."
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__team_id
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__team_id
+msgid "If set, this Sales Team will be used for sales and assignations related to this partner"
+msgstr "Si establecido, este Equipo de Ventas sera utilizado para ventas y asignaciones relacionadas a este partner"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__action_id
+msgid "If specified, this action will be opened at log on for this user, in addition to the standard menu."
+msgstr "Si se especifica, esta acción será ejecutada cuando este usuario entre en el sistema, en adición al menú estándar."
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__is_blacklisted
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__is_blacklisted
+msgid "If the email address is on the blacklist, the contact won't receive mass mailing anymore, from any list"
+msgstr "Si la dirección de email esta en la lista negra, el contacto ya no recibirá correo masivo de cualquier lista."
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_appointment__patient_image
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__doctor_image
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__patient_image
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__image
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__image
+msgid "Image"
+msgstr "Imagen"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__l10n_co_document_type
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__l10n_co_document_type
+msgid "Indicates to what document the information in here belongs to."
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_health_procedures__indications
+#: model:ir.model.fields,field_description:doctor_col.field_product_product__indications
+#: model:ir.model.fields,field_description:doctor_col.field_product_template__indications
+msgid "Indications"
+msgstr "Indicaciones"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__industry_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__industry_id
+msgid "Industry"
+msgstr "Sector"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__ref
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__ref
+msgid "Internal Reference"
+msgstr "Referencia interna"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__interpretation_imc
+msgid "Interpretation"
+msgstr "Interpretación"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__invoice_warn
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__invoice_warn
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: doctor_col
+#: selection:doctor.appointment,state:0
+msgid "Invoiced"
+msgstr "Facturado"
+
+#. module: doctor_col
+#: selection:doctor.attention,state:0
+msgid "Invoiced"
+msgstr "Facturado"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__invoice_ids
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__invoice_ids
+msgid "Invoices"
+msgstr "Facturas"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_product_product__is_appointment
+#: model:ir.model.fields,field_description:doctor_col.field_product_template__is_appointment
+msgid "Is Appointment?"
+msgstr "¿Es un Tipo de Cita?"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__is_company
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__is_company
+msgid "Is Company"
+msgstr "Es empresa"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_product_product__is_drugs
+#: model:ir.model.fields,field_description:doctor_col.field_product_template__is_drugs
+msgid "Is Drugs?"
+msgstr "¿Es un Medicamento?"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__message_is_follower
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__message_is_follower
+msgid "Is Follower"
+msgstr "Es un seguidor"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_product_product__is_health_procedure
+#: model:ir.model.fields,field_description:doctor_col.field_product_template__is_health_procedure
+msgid "Is Health Procedure?"
+msgstr "¿Es un Procedimiento Médico?"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__customer
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__customer
+msgid "Is a Customer"
+msgstr "Es Cliente"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__supplier
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__supplier
+msgid "Is a Vendor"
+msgstr "Es proveedor"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__function
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__function
+msgid "Job Position"
+msgstr "Puesto de trabajo"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__journal_item_count
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__journal_item_count
+msgid "Journal Items"
+msgstr "Apuntes contables"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__lang
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__lang
+msgid "Language"
+msgstr "Idioma"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_administration_route____last_update
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_antecedent____last_update
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_appointment____last_update
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_atc____last_update
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention____last_update
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_diagnostic____last_update
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_disability____last_update
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_diseases____last_update
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor____last_update
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_health_procedures____last_update
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient____last_update
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_pharmaceutical_form____last_update
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_physical_exam____last_update
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_profession____last_update
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_review_system____last_update
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_schedule____last_update
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_schedule_space____last_update
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_speciality____last_update
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_stratum____last_update
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_type_antecedent____last_update
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_type_physical_exam____last_update
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_type_review_system____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__x_lastname1
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__x_lastname1
+msgid "Last Name"
+msgstr "Primer Apellido"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_administration_route__write_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_antecedent__write_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_appointment__write_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_atc__write_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__write_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_diagnostic__write_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_disability__write_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_diseases__write_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__write_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_health_procedures__write_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__write_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_pharmaceutical_form__write_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_physical_exam__write_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_profession__write_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_review_system__write_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_schedule__write_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_schedule_space__write_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_speciality__write_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_stratum__write_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_type_antecedent__write_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_type_physical_exam__write_uid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_type_review_system__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_administration_route__write_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_antecedent__write_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_appointment__write_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_atc__write_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__write_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_diagnostic__write_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_disability__write_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_diseases__write_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__write_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_health_procedures__write_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__write_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_pharmaceutical_form__write_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_physical_exam__write_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_profession__write_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_review_system__write_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_schedule__write_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_schedule_space__write_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_speciality__write_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_stratum__write_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_type_antecedent__write_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_type_physical_exam__write_date
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_type_review_system__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__last_time_entries_checked
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__last_time_entries_checked
+msgid "Last time the invoices & payments matching was performed for this partner. It is set either if there's not at least an unreconciled debit and an unreconciled credit or if you click the \"Done\" button."
+msgstr "Última vez que se conciliaros facturas y pagos de este asociado. Se configura incluso si no hay ningún débito o crédito por conciliar, o si pulsa el botón \"Hecho\"."
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__laterality
+msgid "Laterality"
+msgstr "Lateralidad"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__last_time_entries_checked
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__last_time_entries_checked
+msgid "Latest Invoices & Payments Matching Date"
+msgstr "Fecha de la última conciliación de facturas y pagos"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__login_date
+msgid "Latest connection"
+msgstr "Última conexión"
+
+#. module: doctor_col
+#: selection:doctor.patient,laterality:0
+msgid "Left Handed"
+msgstr "Zurdo"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__login
+msgid "Login"
+msgstr "Usuario"
+
+#. module: doctor_col
+#: selection:doctor.patient,education_level:0
+msgid "MAESTRÍAS "
+msgstr ""
+
+#. module: doctor_col
+#: selection:doctor.diagnostic,type_diagnostic:0
+msgid "Main"
+msgstr "Principal"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__message_main_attachment_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Adjuntos principales"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_doctor_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_patient_view_form
+msgid "Main Data"
+msgstr "Información Principal"
+
+#. module: doctor_col
+#: selection:doctor.doctor,sex:0
+#: selection:doctor.patient,sex:0
+msgid "Male"
+msgstr "Masculino"
+
+#. module: doctor_col
+#: selection:doctor.doctor,civil_status:0
+#: selection:doctor.patient,civil_status:0
+msgid "Married"
+msgstr "Casado"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__image_medium
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__image_medium
+msgid "Medium-sized image"
+msgstr "Imagen de tamaño mediano"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__image_medium
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__image_medium
+msgid "Medium-sized image of this contact. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
+msgstr "Imagen mediana de este contacto. Se redimensiona automáticamente a 128x128px, con el ratio de aspecto preservado. Se usa este campo en las vistas formulario y en algunas vistas kanban."
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__message_has_error
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__message_has_error
+msgid "Message Delivery error"
+msgstr "Error de Envío de Mensaje"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__invoice_warn_msg
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__invoice_warn_msg
+msgid "Message for Invoice"
+msgstr "Mensaje para factura"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__purchase_warn_msg
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__purchase_warn_msg
+msgid "Message for Purchase Order"
+msgstr "Mensaje para el pedido de compra"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__sale_warn_msg
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__sale_warn_msg
+msgid "Message for Sales Order"
+msgstr "Mensaje para el pedido de venta"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__message_ids
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__mobile
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__mobile
+msgid "Mobile"
+msgstr "Móvil"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__moderation_channel_ids
+msgid "Moderated channels"
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__moderation_counter
+msgid "Moderation count"
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__xcity
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__xcity
+msgid "Municipality"
+msgstr "Municipio"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__formatedNit
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__formatedNit
+msgid "NIT Formatted"
+msgstr "NIT Formateado"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_appointment__name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__name
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_doctor_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_patient_view_form
+msgid "Name"
+msgstr "Nombre"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Name Doctor"
+msgstr "Nombre Doctor"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Name Patient"
+msgstr "Nombre Paciente"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__companyName
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__companyName
+msgid "Name of the Company"
+msgstr "Nombre de la Compañia"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__activity_date_deadline
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Siguiente plazo de actividad"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__activity_summary
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__activity_summary
+msgid "Next Activity Summary"
+msgstr "Resumen de la siguiente actividad"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__activity_type_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__activity_type_id
+msgid "Next Activity Type"
+msgstr "Siguiente tipo de actividad"
+
+#. module: doctor_col
+#: selection:doctor.attention,purpose_consultation:0
+msgid "No aplica"
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__comment
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__comment
+msgid "Notes"
+msgstr "Notas"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__notification_type
+msgid "Notification Management"
+msgstr "Gestión de notificación"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__message_needaction_counter
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de acciones"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__companies_count
+msgid "Number of Companies"
+msgstr "Numero de compañías"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__message_has_error_counter
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__message_has_error_counter
+msgid "Number of error"
+msgstr "Número de error"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__message_needaction_counter
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Número de mensajes que requieren una acción"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__message_has_error_counter
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensajes con error de envío"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__message_unread_counter
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Número de mensajes no leidos"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__ocupation
+msgid "Ocupation"
+msgstr "Ocupación"
+
+#. module: doctor_col
+#: selection:product.template,procedure_type:0
+msgid "Odontological"
+msgstr "Odontolócia"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__odoobot_state
+msgid "OdooBot Status"
+msgstr ""
+
+#. module: doctor_col
+#: selection:doctor.attention,state:0
+msgid "Open"
+msgstr "Abierta"
+
+#. module: doctor_col
+#: selection:product.template,procedure_type:0
+msgid "Other"
+msgstr "Otro"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__other_symptoms
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Other Symptoms"
+msgstr "Otros Síntomas"
+
+#. module: doctor_col
+#: selection:doctor.attention,external_cause:0
+msgid "Otra"
+msgstr ""
+
+#. module: doctor_col
+#: selection:doctor.attention,external_cause:0
+msgid "Otro tipo de accidente"
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__pulsioximetry
+msgid "Oxygen Saturation"
+msgstr "Saturación de Oxígeno"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_attention__pulsioximetry
+msgid "Oxygen Saturation (Arterial)."
+msgstr "Saturación de Oxígeno (Arterial)"
+
+#. module: doctor_col
+#: selection:doctor.patient,education_level:0
+msgid "PREGRADE"
+msgstr "Pregrado"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__parent_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__parent_name
+msgid "Parent name"
+msgstr "Nombre del padre"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__contract_ids
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__contract_ids
+msgid "Partner Contracts"
+msgstr "Contratos de la Empresa "
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__active_partner
+msgid "Partner is Active"
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__partner_id
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__partner_id
+msgid "Partner-related data of the user"
+msgstr "Datos del usuario relativos a la empresa"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__password
+msgid "Password"
+msgstr "Contraseña"
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_patient_form_action
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__doctor_patient_id
+#: model:ir.ui.menu,name:doctor_col.clinic_menu_patient
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_doctor_view_tree
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_patient_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_patient_view_tree
+msgid "Patient"
+msgstr "Paciente"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__debit_limit
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__debit_limit
+msgid "Payable Limit"
+msgstr "Límite a pagar"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__payment_token_ids
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__payment_token_ids
+msgid "Payment Tokens"
+msgstr "Tableros de pago"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_doctor_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_patient_view_form
+msgid "Personal Information"
+msgstr "Información Personal"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_product_product__doctor_pharmaceutical_form_id
+#: model:ir.model.fields,field_description:doctor_col.field_product_template__doctor_pharmaceutical_form_id
+msgid "Pharmaceutica Form"
+msgstr "Forma Farmacetica"
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_pharmaceutical_form_form_action
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_pharmaceutical_form__name
+#: model:ir.ui.menu,name:doctor_col.clinic_menu_pharmaceutical_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_pharmaceutical_form_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_pharmaceutical_form_view_tree
+msgid "Pharmaceutical Form"
+msgstr "Forma Farmaceutica"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__phone
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__phone
+msgid "Phone"
+msgstr "Teléfono"
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_physical_exam_form_action
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__doctor_physical_exam_ids
+#: model:ir.ui.menu,name:doctor_col.clinic_menu_physical_exam
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_physical_exam_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_physical_exam_view_tree
+msgid "Physical Exam"
+msgstr "Exámen Físico"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__pos_name
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__pos_name
+msgid "Point of Sales Name"
+msgstr "Nombre del Punto de Venta"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__notification_type
+msgid "Policy on how to handle Chatter notifications:\n"
+"- Handle by Emails: notifications are sent to your email address\n"
+"- Handle in Odoo: notifications appear in your Odoo Inbox"
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__alias_contact
+msgid "Policy to post a message on the document using the mailgateway.\n"
+"- everyone: everyone can post\n"
+"- partners: only authenticated partners\n"
+"- followers: only followers of the related document or members of following channels\n"
+""
+msgstr "Política para publicar un mensaje en el documento utilizando el servidor de correo.\n"
+"- todo el mundo: todos pueden publicar\n"
+"- socios: sólo socios autenticados\n"
+"- seguidores: sólo seguidores del documento relacionado o miembros de los siguientes canales\n"
+""
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_profession_view_form
+msgid "Prefession"
+msgstr "Profesión"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Prescription"
+msgstr "Prescripción"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__property_product_pricelist
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__property_product_pricelist
+msgid "Pricelist"
+msgstr "Lista de Precios"
+
+#. module: doctor_col
+#: model:ir.ui.menu,name:doctor_col.clinic_menu_print_medical_history
+#: model:ir.ui.menu,name:doctor_col.clinic_menu_print_medical_history_root
+msgid "Print Medical history"
+msgstr "Impresión Historia Clínica"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_product_product__procedure_type
+#: model:ir.model.fields,field_description:doctor_col.field_product_template__procedure_type
+msgid "Procedure Type"
+msgstr "Tipo de Procedimiento"
+
+#. module: doctor_col
+#: model:ir.model,name:doctor_col.model_product_template
+msgid "Product Template"
+msgstr "Plantilla del Producto"
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_profession_form_action
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__doctor_profession_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_profession__name
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_profession_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_profession_view_tree
+msgid "Profession"
+msgstr "Profesión"
+
+#. module: doctor_col
+#: model:ir.ui.menu,name:doctor_col.clinic_menu_prefession
+msgid "Profession Doctor"
+msgstr "Profesión"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__doctor_professional_card
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__professional_card
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_doctor_view_form
+msgid "Professional Card"
+msgstr "Tarjeta Profesional"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_doctor_view_kanban
+msgid "Professional Card:"
+msgstr "Tarjeta Profesional:"
+
+#. module: doctor_col
+#: model:res.groups,name:doctor_col.group_conf_professional_health
+msgid "Professional Health"
+msgstr "Profesional de la salud"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__purchase_warn
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__purchase_warn
+msgid "Purchase Order"
+msgstr "Orden de Compra"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__purchase_order_count
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__purchase_order_count
+msgid "Purchase Order Count"
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__purpose_consultation
+msgid "Purpose Consultation"
+msgstr "Propósito de la Consulta"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__indications_disability
+msgid "Recommendations"
+msgstr "Recomendaciones"
+
+#. module: doctor_col
+#: selection:doctor.diagnostic,state:0
+msgid "Recurrent"
+msgstr "Recurrente"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__l10n_co_verification_code
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__l10n_co_verification_code
+msgid "Redundancy check to verify the vat number has been typed in correctly."
+msgstr ""
+
+#. module: doctor_col
+#: selection:doctor.diagnostic,type_diagnostic:0
+msgid "Related"
+msgstr "Relacionado"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__parent_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__parent_id
+msgid "Related Company"
+msgstr "Empresa relacionada"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__partner_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__partner_id
+msgid "Related Partner"
+msgstr "Empresa relacionada"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__res_user_id
+msgid "Related User"
+msgstr "Usuario Relacionado"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__residence_area
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__residence_area
+msgid "Residence Area"
+msgstr "Zona de Residencia"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_doctor_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_patient_view_form
+msgid "Residence Details"
+msgstr "Datos Residencia"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__respiratory_rate
+msgid "Respiratory Rate"
+msgstr "Frecuencia Respiratoria"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_attention__respiratory_rate
+msgid "Respiratory rate expressed in breaths per minute"
+msgstr "Frecuencia Respiratoria Expresada en Respiraciones por Minuto"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__activity_user_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__activity_user_id
+msgid "Responsible User"
+msgstr "Usuario responsable"
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_review_system_form_action
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_antecedent__description
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__doctor_review_system_ids
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_review_system__doctor_type_review_system_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_type_review_system__name
+#: model:ir.ui.menu,name:doctor_col.clinic_menu_review_system
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_review_system_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_review_system_view_tree
+msgid "Review System"
+msgstr "Revisión por Sistemas"
+
+#. module: doctor_col
+#: selection:doctor.patient,laterality:0
+msgid "Right Handed"
+msgstr "Diestro"
+
+#. module: doctor_col
+#: selection:doctor.doctor,residence_area:0
+#: selection:doctor.patient,residence_area:0
+msgid "Rural"
+msgstr "Rural"
+
+#. module: doctor_col
+#: selection:doctor.patient,education_level:0
+msgid "SECONDARY"
+msgstr "Secundaria"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__sale_order_count
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__sale_order_count
+msgid "Sale Order Count"
+msgstr "Recuento de pedidos de venta"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__sale_order_ids
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__sale_order_ids
+msgid "Sales Order"
+msgstr "Pedido de venta"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__team_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__team_id
+msgid "Sales Team"
+msgstr "Equipo de Ventas"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__sale_team_id
+msgid "Sales Team the user is member of. Used to compute the members of a Sales Team through the inverse one2many"
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__sale_warn
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__sale_warn
+msgid "Sales Warnings"
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__user_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__user_id
+msgid "Salesperson"
+msgstr "Vendedor"
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_schedule_form_action
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_appointment__schedule_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_schedule_space__schedule_id
+#: model:ir.ui.menu,name:doctor_col.clinic_menu_schedule
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_schedule_view_calendar
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_schedule_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_schedule_view_tree
+msgid "Schedule"
+msgstr "Agenda"
+
+#. module: doctor_col
+#: code:addons/doctor_col/models/doctor_schedule_space.py:98
+#, python-format
+msgid "Schedule Appointment"
+msgstr "Cita Agenda"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_schedule_view_form
+msgid "Schedule Duration"
+msgstr "Duración Agenda"
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_schedule_space_form_action
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_schedule_space_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_schedule_space_view_tree
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_schedule_view_form
+msgid "Schedule Space"
+msgstr "Espacio Agenda"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_schedule__schedule_spaces_ids
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_schedule_view_form
+msgid "Schedule Spaces"
+msgstr "Espacios Agenda"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__x_lastname2
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__x_lastname2
+msgid "Second Last Name"
+msgstr "Segundo Apellido"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__x_name2
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__x_name2
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_doctor_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_patient_view_form
+msgid "Second Name"
+msgstr "Segundo Nombre"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_doctor_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_patient_view_form
+msgid "Second Surname"
+msgstr "Segundo Apellido"
+
+#. module: doctor_col
+#: model:res.groups,name:doctor_col.group_conf_secretary
+msgid "Secretary"
+msgstr "Secretaría"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__invoice_warn
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__purchase_warn
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__sale_warn
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__invoice_warn
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__purchase_warn
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__sale_warn
+msgid "Selecting the \"Warning\" option will notify user with the message, Selecting \"Blocking Message\" will throw an exception with the message and block the flow. The Message has to be written in the next field."
+msgstr "Si selecciona la opción \"Aviso\" se notificará a los usuarios con el mensaje, si selecciona \"Mensaje de bloqueo\" se lanzará una excepción con el mensaje y se bloqueará el flujo. El mensaje debe escribirse en el siguiente campo."
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__self
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__self
+msgid "Self"
+msgstr "Sí mismo"
+
+#. module: doctor_col
+#: selection:doctor.doctor,civil_status:0
+#: selection:doctor.patient,civil_status:0
+msgid "Separated"
+msgstr "Separado"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_disability__name
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__new_password
+msgid "Set Password"
+msgstr "Establecer contraseña"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__sex
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__sex
+msgid "Sex"
+msgstr "Sexo"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_doctor_view_kanban
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_patient_view_kanban
+msgid "Sex:"
+msgstr "Sexo:"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__partner_share
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__partner_share
+msgid "Share Partner"
+msgstr "Compartir empresa"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__share
+msgid "Share User"
+msgstr "Compartir usuario"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__signature
+msgid "Signature"
+msgstr "Firma"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__signup_expiration
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__signup_expiration
+msgid "Signup Expiration"
+msgstr "Expiración del ingreso"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__signup_token
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__signup_token
+msgid "Signup Token"
+msgstr "Palabra de ingreso"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__signup_type
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__signup_type
+msgid "Signup Token Type"
+msgstr "Tipo de la palabra de ingreso"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__signup_valid
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__signup_valid
+msgid "Signup Token is Valid"
+msgstr "La palabra de ingreso es válida"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__signup_url
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__signup_url
+msgid "Signup URL"
+msgstr "URL de ingreso"
+
+#. module: doctor_col
+#: selection:doctor.doctor,civil_status:0
+#: selection:doctor.patient,civil_status:0
+msgid "Single"
+msgstr "Soltero"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Size and Weight"
+msgstr "Tamaño y Peso"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__image_small
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__image_small
+msgid "Small-sized image"
+msgstr "Imagen de tamaño pequeño"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__image_small
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__image_small
+msgid "Small-sized image of this contact. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
+msgstr "Imagen de tamaño pequeño de este contacto. Se redimensiona automáticamente a 64x64 px, con el ratio de aspecto preservado. Use este campo donde se requiera una imagen pequeña."
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "SpO2"
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_speciality_form_action
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__doctor_doctor_speciality_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__doctor_speciality_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_speciality__name
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_doctor_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_speciality_view_form
+msgid "Speciality"
+msgstr "Especialidad"
+
+#. module: doctor_col
+#: model:ir.ui.menu,name:doctor_col.clinic_menu_specialty
+msgid "Specialty"
+msgstr "Especialidad"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__new_password
+msgid "Specify a value only when creating a user or if you're changing the user's password, otherwise leave empty. After a change of password, the user has to login again."
+msgstr "Especifique un valor sólo cuando esté creando un usuario o si está cambiando la contraseña del mismo. En otro caso déjelo vacío. Después de un cambio de contraseña,  el usuario debe iniciar sesión de nuevo."
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_appointment__date_begin
+#: model:ir.model.fields,field_description:doctor_col.field_product_product__date_begin
+#: model:ir.model.fields,field_description:doctor_col.field_product_template__date_begin
+msgid "Start time"
+msgstr "Fecha Inicio"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__state
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_diagnostic__state
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__state_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__state_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_schedule_space__state
+msgid "State"
+msgstr "Estado"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__state_of_residence_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__state_of_birth_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__state_of_residence_id
+msgid "State/Province"
+msgstr "Estado/Provincia"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_appointment__state
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__state
+msgid "Status"
+msgstr "Estado"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__activity_state
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__activity_state
+msgid "Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr "Estado basado en actividades\n"
+"Vencida: la fecha tope ya ha pasado\n"
+"Hoy: La fecha tope es hoy\n"
+"Planificada: futuras actividades."
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_stratum_form_action
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__stratum_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_stratum__name
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_stratum_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_stratum_view_tree
+msgid "Stratum"
+msgstr "Estrato"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__street
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__street
+msgid "Street"
+msgstr "Calle"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__street2
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__street2
+msgid "Street2"
+msgstr "Calle2"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_patient_view_form
+msgid "Supplementary Data"
+msgstr "Dato Suplementario"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__property_purchase_currency_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__property_purchase_currency_id
+msgid "Supplier Currency"
+msgstr "Moneda de Proveedor"
+
+#. module: doctor_col
+#: selection:product.template,procedure_type:0
+msgid "Surgical Procedure"
+msgstr "Procedimiento Quirúrgico"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_doctor_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_patient_view_form
+msgid "Surname"
+msgstr "Primer Apellido"
+
+#. module: doctor_col
+#: model:ir.ui.menu,name:doctor_col.clinic_menu_clinic
+#: model:ir.ui.menu,name:doctor_col.clinic_menu_root
+msgid "Syscord Clinic"
+msgstr "Syscord Clínica"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.product_template_form_view_inherit
+msgid "Syscord Clinical"
+msgstr "Syscord Clínica"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Systems Review"
+msgstr "Revisión por Sistemas"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__systolic
+msgid "Systolic Pressure"
+msgstr "Presión Sistólica"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__category_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__category_id
+msgid "Tags"
+msgstr "Etiquetas"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__vat
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__vat
+msgid "Tax ID"
+msgstr "NIF"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__temperature
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Temperature"
+msgstr "Temperatura"
+
+#. module: doctor_col
+#: sql_constraint:doctor.administration_route:0
+msgid "The Administration Route name must be unique"
+msgstr "El nombre de la Vía de Administración Debería ser Único"
+
+#. module: doctor_col
+#: sql_constraint:doctor.atc:0
+#: sql_constraint:doctor.diseases:0
+msgid "The Medical Diseases code must be unique"
+msgstr "El nombre de la Enfermedad Médica Debería ser Único"
+
+#. module: doctor_col
+#: sql_constraint:doctor.speciality:0
+msgid "The Medical Speciality name must be unique"
+msgstr "El nombre de la Especialidad Debería ser Único"
+
+#. module: doctor_col
+#: sql_constraint:doctor.pharmaceutical_form:0
+msgid "The Pharmaceutical Form name must be unique"
+msgstr "El nombre de la Forma Farmaceutica Debería ser Único"
+
+#. module: doctor_col
+#: sql_constraint:doctor.stratum:0
+msgid "The Stratum name must be unique"
+msgstr "El nombre del Estrato Debería ser Único"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__vat
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__vat
+msgid "The Tax Identification Number. Complete it if the contact is subjected to government taxes. Used in some legal statements."
+msgstr ""
+
+#. module: doctor_col
+#: sql_constraint:doctor.type_antecedent:0
+msgid "The Type Antecedent name must be unique"
+msgstr "El nombre del Tipo del Antecedente Debería ser Único"
+
+#. module: doctor_col
+#: sql_constraint:doctor.type_physical_exam:0
+msgid "The Type Physical Exam name must be unique"
+msgstr "El nombre del Tipo de Exámen Físico Debería ser Único"
+
+#. module: doctor_col
+#: sql_constraint:doctor.type_review_system:0
+msgid "The Type Review System name must be unique"
+msgstr "El nombre del Tipo de Revisión por Sistemas Debería ser Único"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__company_id
+msgid "The company this user is currently working for."
+msgstr "La compañía para la cual trabaja este usuario actualmente."
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__property_account_position_id
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__property_account_position_id
+msgid "The fiscal position determines the taxes/accounts used for this contact."
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__user_id
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__user_id
+msgid "The internal user in charge of this contact."
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__has_unreconciled_entries
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__has_unreconciled_entries
+msgid "The partner has at least one unreconciled debit and credit since last time the invoices & payments matching was performed."
+msgstr "El asociado tiene al menos un débito o crédito no conciliado desde la última vez que se realizó la conciliación de facturas y pagos."
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__tz
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__tz
+msgid "The partner's timezone, used to output proper date and time values inside printed reports. It is important to set a value for this field. You should use the same timezone that is otherwise used to pick and render date and time values: your computer's timezone."
+msgstr "Zona horaria de la empresa, usada para mostrar la fecha y hora adecuadas en los informes. Es importante establecer un valor para este campo. Debería usar la misma zona horaria que se coge en cualquier caso para mostrar los valores de fecha y hora: la zona horaria de su ordenador."
+
+#. module: doctor_col
+#: selection:product.template,procedure_type:0
+msgid "Therapeutic Procedure"
+msgstr "Procedimiento Terapéutico"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__property_account_payable_id
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__property_account_payable_id
+msgid "This account will be used instead of the default one as the payable account for the current partner"
+msgstr "Esta cuenta se utilizará en lugar de la cuenta por defecto como la cuenta pendiente de pago del asociado actual."
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__property_account_receivable_id
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__property_account_receivable_id
+msgid "This account will be used instead of the default one as the receivable account for the current partner"
+msgstr "Esta cuenta se utilizará en lugar de la cuenta por defecto como la cuenta pendiente de cobro del asociado actual."
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__property_purchase_currency_id
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__property_purchase_currency_id
+msgid "This currency will be used, instead of the default one, for purchases from the current partner"
+msgstr "Se utilizará esta moneda, en lugar de la predeterminada, para las compras de la pareja actual"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_appointment__patient_image
+#: model:ir.model.fields,help:doctor_col.field_doctor_attention__doctor_image
+#: model:ir.model.fields,help:doctor_col.field_doctor_attention__patient_image
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__image
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__image
+msgid "This field holds the image used as avatar for this contact, limited to 1024x1024px"
+msgstr "Este campo contiene la imagen utilizada como avatar para este contacto, limitada a 1024x1024px"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__property_supplier_payment_term_id
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__property_supplier_payment_term_id
+msgid "This payment term will be used instead of the default one for purchase orders and vendor bills"
+msgstr "Se utilizará esta condición de pago, en lugar de la predeterminada, para los pedidos de compra y las facturas de proveedor."
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__property_payment_term_id
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__property_payment_term_id
+msgid "This payment term will be used instead of the default one for sales orders and customer invoices"
+msgstr "Este término de pago se utilizará en lugar del predeterminado para pedidos de cliente y facturas de clientes"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__property_product_pricelist
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__property_product_pricelist
+msgid "This pricelist will be used, instead of the default one, for sales to the current partner"
+msgstr "Esta tarifa se utilizará, en lugar de la por defecto, para las ventas de la empresa actual."
+
+#. module: doctor_col
+#: sql_constraint:doctor.profession:0
+msgid "This profession already exists."
+msgstr "Esta Profesión ya Existe"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__tz
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__tz
+msgid "Timezone"
+msgstr "Zona horaria"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__tz_offset
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__tz_offset
+msgid "Timezone offset"
+msgstr "Compensación de zona horaria"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__title
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__title
+msgid "Title"
+msgstr "Título"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__total_invoiced
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__total_invoiced
+msgid "Total Invoiced"
+msgstr "Total facturado"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__debit
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__debit
+msgid "Total Payable"
+msgstr "Total a pagar"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__credit
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__credit
+msgid "Total Receivable"
+msgstr "Total a cobrar"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__credit
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__credit
+msgid "Total amount this customer owes you."
+msgstr "Importe total que le debe el cliente."
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__debit
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__debit
+msgid "Total amount you have to pay to this vendor."
+msgstr "Importe total a pagar a este proveedor."
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_diagnostic__type_diagnostic
+msgid "Type"
+msgstr "Tipo"
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_type_antecedent_form_action
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_type_antecedent_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_type_antecedent_view_tree
+msgid "Type Antecedent"
+msgstr "Tipo Antecedente"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_antecedent__doctor_type_antecedent_id
+msgid "Type Antecendent"
+msgstr "Tipo Antecedente"
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_type_appoinment_action
+#: model_terms:ir.ui.view,arch_db:doctor_col.product_template_form_view_inherit
+#: model_terms:ir.ui.view,arch_db:doctor_col.product_template_search_view_inherit
+msgid "Type Appointment"
+msgstr "Tipo Cita"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_appointment_view_kanban
+msgid "Type Document:"
+msgstr "Tipo Documento"
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_type_physical_exam_form_action
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_physical_exam__doctor_type_physical_exam_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_type_physical_exam__name
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_type_physical_exam_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_type_physical_exam_view_tree
+msgid "Type Physical Exam"
+msgstr "Tipo de Exámen Físico"
+
+#. module: doctor_col
+#: model:ir.actions.act_window,name:doctor_col.doctor_type_review_system_form_action
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_type_review_system_view_form
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_type_review_system_view_tree
+msgid "Type Review System"
+msgstr "Tipo de Revisión por Sistemas"
+
+#. module: doctor_col
+#: model:ir.ui.menu,name:doctor_col.clinic_menu_type_appoinment
+msgid "Type of Appointment"
+msgstr "Tipo de Cita"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__doctype
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__doctype
+msgid "Type of Identification"
+msgstr "Tipo de identificación"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__personType
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__personType
+msgid "Type of Person"
+msgstr "Tipo de persona"
+
+#. module: doctor_col
+#: selection:doctor.appointment,state:0
+msgid "Unconfirmed"
+msgstr "Sin Confirmar"
+
+#. module: doctor_col
+#: selection:doctor.doctor,sex:0
+#: selection:doctor.patient,sex:0
+msgid "Undefined"
+msgstr "Indefinido"
+
+#. module: doctor_col
+#: model:product.product,uom_name:doctor_col.010100
+#: model:product.product,uom_name:doctor_col.010101
+#: model:product.template,uom_name:doctor_col.010100_product_template
+#: model:product.template,uom_name:doctor_col.010101_product_template
+#: model:product.template,uom_name:doctor_col.A01AA01_product_template
+#: model:product.template,uom_name:doctor_col.A02AB01_product_template
+#: model:product.template,uom_name:doctor_col.A02AB10_product_template
+#: model:product.template,uom_name:doctor_col.A02BA02_product_template
+#: model:product.template,uom_name:doctor_col.A02BC01_product_template
+#: model:product.template,uom_name:doctor_col.A02BC05_product_template
+#: model:product.template,uom_name:doctor_col.A02BX02_product_template
+#: model:product.template,uom_name:doctor_col.A03BA01_product_template
+#: model:product.template,uom_name:doctor_col.A03BB01_product_template
+#: model:product.template,uom_name:doctor_col.A03DB04_product_template
+#: model:product.template,uom_name:doctor_col.A03FA01_product_template
+#: model:product.template,uom_name:doctor_col.A04AA01_product_template
+#: model:product.template,uom_name:doctor_col.A06AB02_product_template
+#: model:product.template,uom_name:doctor_col.A06AB05_product_template
+#: model:product.template,uom_name:doctor_col.A06AX01_product_template
+#: model:product.template,uom_name:doctor_col.A07AA02_product_template
+#: model:product.template,uom_name:doctor_col.A07BA01_product_template
+#: model:product.template,uom_name:doctor_col.A07CA99_product_template
+#: model:product.template,uom_name:doctor_col.A07DA03_product_template
+#: model:product.template,uom_name:doctor_col.A07EC01_product_template
+#: model:product.template,uom_name:doctor_col.A07EC02_product_template
+#: model:product.template,uom_name:doctor_col.A10AB01_product_template
+#: model:product.template,uom_name:doctor_col.A10AB04_product_template
+#: model:product.template,uom_name:doctor_col.A10AB05_product_template
+#: model:product.template,uom_name:doctor_col.A10AB06_product_template
+#: model:product.template,uom_name:doctor_col.A10AC01_product_template
+#: model:product.template,uom_name:doctor_col.A10AD01_product_template
+#: model:product.template,uom_name:doctor_col.A10AE01_product_template
+#: model:product.template,uom_name:doctor_col.A10AE04_product_template
+#: model:product.template,uom_name:doctor_col.A10AE05_product_template
+#: model:product.template,uom_name:doctor_col.A10BA02_product_template
+#: model:product.template,uom_name:doctor_col.A10BB01_product_template
+#: model:product.template,uom_name:doctor_col.A11CA01_product_template
+#: model:product.template,uom_name:doctor_col.A11CC04_product_template
+#: model:product.template,uom_name:doctor_col.A11DA01_product_template
+#: model:product.template,uom_name:doctor_col.A11GA01_product_template
+#: model:product.template,uom_name:doctor_col.A11HA02_product_template
+#: model:product.template,uom_name:doctor_col.A12AA03_product_template
+#: model:product.template,uom_name:doctor_col.A12AA04_product_template
+#: model:product.template,uom_name:doctor_col.A12AA20_product_template
+#: model:product.template,uom_name:doctor_col.A12BA05_product_template
+#: model:product.template,uom_name:doctor_col.B01AA03_product_template
+#: model:product.template,uom_name:doctor_col.B01AB01_product_template
+#: model:product.template,uom_name:doctor_col.B01AC04_product_template
+#: model:product.template,uom_name:doctor_col.B01AC06_product_template
+#: model:product.template,uom_name:doctor_col.B01AC17_product_template
+#: model:product.template,uom_name:doctor_col.B01AD01_product_template
+#: model:product.template,uom_name:doctor_col.B01AD02_product_template
+#: model:product.template,uom_name:doctor_col.B02AA02_product_template
+#: model:product.template,uom_name:doctor_col.B02BA01_product_template
+#: model:product.template,uom_name:doctor_col.B02BD02_product_template
+#: model:product.template,uom_name:doctor_col.B02BD04_product_template
+#: model:product.template,uom_name:doctor_col.B03AA07_product_template
+#: model:product.template,uom_name:doctor_col.B03AC02_product_template
+#: model:product.template,uom_name:doctor_col.B03BA01_product_template
+#: model:product.template,uom_name:doctor_col.B03BA03_product_template
+#: model:product.template,uom_name:doctor_col.B03BB01_product_template
+#: model:product.template,uom_name:doctor_col.B03XA01_product_template
+#: model:product.template,uom_name:doctor_col.B05AA01_product_template
+#: model:product.template,uom_name:doctor_col.B05AA02_product_template
+#: model:product.template,uom_name:doctor_col.B05BA01_product_template
+#: model:product.template,uom_name:doctor_col.B05BA02_product_template
+#: model:product.template,uom_name:doctor_col.B05BA03_product_template
+#: model:product.template,uom_name:doctor_col.B05BA10_product_template
+#: model:product.template,uom_name:doctor_col.B05BB01_product_template
+#: model:product.template,uom_name:doctor_col.B05BC01_product_template
+#: model:product.template,uom_name:doctor_col.B05DA99_product_template
+#: model:product.template,uom_name:doctor_col.B05XA01_product_template
+#: model:product.template,uom_name:doctor_col.B05XA02_product_template
+#: model:product.template,uom_name:doctor_col.B05XA03_product_template
+#: model:product.template,uom_name:doctor_col.B05XA05_product_template
+#: model:product.template,uom_name:doctor_col.B05XA06_product_template
+#: model:product.template,uom_name:doctor_col.B05XA30_product_template
+#: model:product.template,uom_name:doctor_col.B05ZA98_product_template
+#: model:product.template,uom_name:doctor_col.C01AA08_product_template
+#: model:product.template,uom_name:doctor_col.C01BD01_product_template
+#: model:product.template,uom_name:doctor_col.C01CA03_product_template
+#: model:product.template,uom_name:doctor_col.C01CA04_product_template
+#: model:product.template,uom_name:doctor_col.C01CA07_product_template
+#: model:product.template,uom_name:doctor_col.C01CA24_product_template
+#: model:product.template,uom_name:doctor_col.C01CE02_product_template
+#: model:product.template,uom_name:doctor_col.C01DA02_product_template
+#: model:product.template,uom_name:doctor_col.C01DA08_product_template
+#: model:product.template,uom_name:doctor_col.C02AB01_product_template
+#: model:product.template,uom_name:doctor_col.C02AC01_product_template
+#: model:product.template,uom_name:doctor_col.C02CA01_product_template
+#: model:product.template,uom_name:doctor_col.C02CA04_product_template
+#: model:product.template,uom_name:doctor_col.C02DB02_product_template
+#: model:product.template,uom_name:doctor_col.C02DC01_product_template
+#: model:product.template,uom_name:doctor_col.C02DD01_product_template
+#: model:product.template,uom_name:doctor_col.C02KX01_product_template
+#: model:product.template,uom_name:doctor_col.C03AA03_product_template
+#: model:product.template,uom_name:doctor_col.C03CA01_product_template
+#: model:product.template,uom_name:doctor_col.C03DA01_product_template
+#: model:product.template,uom_name:doctor_col.C05AA01_product_template
+#: model:product.template,uom_name:doctor_col.C07AA05_product_template
+#: model:product.template,uom_name:doctor_col.C07AB02_product_template
+#: model:product.template,uom_name:doctor_col.C07AG01_product_template
+#: model:product.template,uom_name:doctor_col.C07AG02_product_template
+#: model:product.template,uom_name:doctor_col.C08CA01_product_template
+#: model:product.template,uom_name:doctor_col.C08CA05_product_template
+#: model:product.template,uom_name:doctor_col.C08CA06_product_template
+#: model:product.template,uom_name:doctor_col.C08DA01_product_template
+#: model:product.template,uom_name:doctor_col.C09AA01_product_template
+#: model:product.template,uom_name:doctor_col.C09AA02_product_template
+#: model:product.template,uom_name:doctor_col.C09CA01_product_template
+#: model:product.template,uom_name:doctor_col.C09DA01_product_template
+#: model:product.template,uom_name:doctor_col.C10AA02_product_template
+#: model:product.template,uom_name:doctor_col.C10AA05_product_template
+#: model:product.template,uom_name:doctor_col.C10AB04_product_template
+#: model:product.template,uom_name:doctor_col.C10AC01_product_template
+#: model:product.template,uom_name:doctor_col.D01AA01_product_template
+#: model:product.template,uom_name:doctor_col.D01AC01_product_template
+#: model:product.template,uom_name:doctor_col.D02AX99_product_template
+#: model:product.template,uom_name:doctor_col.D04AX99_product_template
+#: model:product.template,uom_name:doctor_col.D05BA02_product_template
+#: model:product.template,uom_name:doctor_col.D06BA01_product_template
+#: model:product.template,uom_name:doctor_col.D07AA02_product_template
+#: model:product.template,uom_name:doctor_col.D07AC01_product_template
+#: model:product.template,uom_name:doctor_col.D08AG02_product_template
+#: model:product.template,uom_name:doctor_col.D10AD02_product_template
+#: model:product.template,uom_name:doctor_col.D10AF01_product_template
+#: model:product.template,uom_name:doctor_col.D10AX95_product_template
+#: model:product.template,uom_name:doctor_col.G01AA01_product_template
+#: model:product.template,uom_name:doctor_col.G01AF01_product_template
+#: model:product.template,uom_name:doctor_col.G01AF02_product_template
+#: model:product.template,uom_name:doctor_col.G01AX06_product_template
+#: model:product.template,uom_name:doctor_col.G02AD02_product_template
+#: model:product.template,uom_name:doctor_col.G02CB01_product_template
+#: model:product.template,uom_name:doctor_col.G03AA07_product_template
+#: model:product.template,uom_name:doctor_col.G03AA08_product_template
+#: model:product.template,uom_name:doctor_col.G03AC03_product_template
+#: model:product.template,uom_name:doctor_col.G03AC06_product_template
+#: model:product.template,uom_name:doctor_col.G03BA03_product_template
+#: model:product.template,uom_name:doctor_col.G03CA03_product_template
+#: model:product.template,uom_name:doctor_col.G03CA57_product_template
+#: model:product.template,uom_name:doctor_col.G03DA03_product_template
+#: model:product.template,uom_name:doctor_col.G03FA01_product_template
+#: model:product.template,uom_name:doctor_col.G03GA01_product_template
+#: model:product.template,uom_name:doctor_col.G03HA01_product_template
+#: model:product.template,uom_name:doctor_col.G03XA01_product_template
+#: model:product.template,uom_name:doctor_col.H01BA02_product_template
+#: model:product.template,uom_name:doctor_col.H01BB02_product_template
+#: model:product.template,uom_name:doctor_col.H02AB01_product_template
+#: model:product.template,uom_name:doctor_col.H02AB02_product_template
+#: model:product.template,uom_name:doctor_col.H02AB04_product_template
+#: model:product.template,uom_name:doctor_col.H02AB06_product_template
+#: model:product.template,uom_name:doctor_col.H02AB07_product_template
+#: model:product.template,uom_name:doctor_col.H02AB09_product_template
+#: model:product.template,uom_name:doctor_col.H03AA01_product_template
+#: model:product.template,uom_name:doctor_col.H03BA02_product_template
+#: model:product.template,uom_name:doctor_col.H03BB02_product_template
+#: model:product.template,uom_name:doctor_col.H04AA01_product_template
+#: model:product.template,uom_name:doctor_col.J01AA02_product_template
+#: model:product.template,uom_name:doctor_col.J01AA07_product_template
+#: model:product.template,uom_name:doctor_col.J01BA01_product_template
+#: model:product.template,uom_name:doctor_col.J01CA01_product_template
+#: model:product.template,uom_name:doctor_col.J01CA04_product_template
+#: model:product.template,uom_name:doctor_col.J01CA51_product_template
+#: model:product.template,uom_name:doctor_col.J01CE01_product_template
+#: model:product.template,uom_name:doctor_col.J01CE02_product_template
+#: model:product.template,uom_name:doctor_col.J01CE08_product_template
+#: model:product.template,uom_name:doctor_col.J01CE09_product_template
+#: model:product.template,uom_name:doctor_col.J01CF01_product_template
+#: model:product.template,uom_name:doctor_col.J01CF04_product_template
+#: model:product.template,uom_name:doctor_col.J01CR02_product_template
+#: model:product.template,uom_name:doctor_col.J01CR05_product_template
+#: model:product.template,uom_name:doctor_col.J01DB01_product_template
+#: model:product.template,uom_name:doctor_col.J01DB03_product_template
+#: model:product.template,uom_name:doctor_col.J01DB04_product_template
+#: model:product.template,uom_name:doctor_col.J01DB09_product_template
+#: model:product.template,uom_name:doctor_col.J01DC02_product_template
+#: model:product.template,uom_name:doctor_col.J01DE01_product_template
+#: model:product.template,uom_name:doctor_col.J01DF01_product_template
+#: model:product.template,uom_name:doctor_col.J01DH02_product_template
+#: model:product.template,uom_name:doctor_col.J01DH51_product_template
+#: model:product.template,uom_name:doctor_col.J01EE01_product_template
+#: model:product.template,uom_name:doctor_col.J01FA01_product_template
+#: model:product.template,uom_name:doctor_col.J01FA02_product_template
+#: model:product.template,uom_name:doctor_col.J01FA09_product_template
+#: model:product.template,uom_name:doctor_col.J01FA10_product_template
+#: model:product.template,uom_name:doctor_col.J01FF01_product_template
+#: model:product.template,uom_name:doctor_col.J01GA01_product_template
+#: model:product.template,uom_name:doctor_col.J01GB03_product_template
+#: model:product.template,uom_name:doctor_col.J01GB06_product_template
+#: model:product.template,uom_name:doctor_col.J01MA02_product_template
+#: model:product.template,uom_name:doctor_col.J01MA06_product_template
+#: model:product.template,uom_name:doctor_col.J01XA01_product_template
+#: model:product.template,uom_name:doctor_col.J01XD01_product_template
+#: model:product.template,uom_name:doctor_col.J01XE01_product_template
+#: model:product.template,uom_name:doctor_col.J02AA01_product_template
+#: model:product.template,uom_name:doctor_col.J02AB02_product_template
+#: model:product.template,uom_name:doctor_col.J02AC01_product_template
+#: model:product.template,uom_name:doctor_col.J02AX04_product_template
+#: model:product.template,uom_name:doctor_col.J04AB02_product_template
+#: model:product.template,uom_name:doctor_col.J04AC01_product_template
+#: model:product.template,uom_name:doctor_col.J04AD03_product_template
+#: model:product.template,uom_name:doctor_col.J04AK01_product_template
+#: model:product.template,uom_name:doctor_col.J04AK02_product_template
+#: model:product.template,uom_name:doctor_col.J04AM05_product_template
+#: model:product.template,uom_name:doctor_col.J04AM06_product_template
+#: model:product.template,uom_name:doctor_col.J05AB01_product_template
+#: model:product.template,uom_name:doctor_col.J05AB11_product_template
+#: model:product.template,uom_name:doctor_col.J05AE01_product_template
+#: model:product.template,uom_name:doctor_col.J05AE02_product_template
+#: model:product.template,uom_name:doctor_col.J05AE03_product_template
+#: model:product.template,uom_name:doctor_col.J05AE04_product_template
+#: model:product.template,uom_name:doctor_col.J05AE07_product_template
+#: model:product.template,uom_name:doctor_col.J05AE08_product_template
+#: model:product.template,uom_name:doctor_col.J05AE11_product_template
+#: model:product.template,uom_name:doctor_col.J05AF01_product_template
+#: model:product.template,uom_name:doctor_col.J05AF02_product_template
+#: model:product.template,uom_name:doctor_col.J05AF04_product_template
+#: model:product.template,uom_name:doctor_col.J05AF05_product_template
+#: model:product.template,uom_name:doctor_col.J05AF06_product_template
+#: model:product.template,uom_name:doctor_col.J05AG01_product_template
+#: model:product.template,uom_name:doctor_col.J05AG03_product_template
+#: model:product.template,uom_name:doctor_col.J05AR01_product_template
+#: model:product.template,uom_name:doctor_col.J05AR03_product_template
+#: model:product.template,uom_name:doctor_col.J06AA03_product_template
+#: model:product.template,uom_name:doctor_col.J06BB01_product_template
+#: model:product.template,uom_name:doctor_col.J07AG01_product_template
+#: model:product.template,uom_name:doctor_col.J07AL01_product_template
+#: model:product.template,uom_name:doctor_col.J07AM01_product_template
+#: model:product.template,uom_name:doctor_col.J07AM51_product_template
+#: model:product.template,uom_name:doctor_col.J07BC01_product_template
+#: model:product.template,uom_name:doctor_col.J07BD52_product_template
+#: model:product.template,uom_name:doctor_col.J07BF02_product_template
+#: model:product.template,uom_name:doctor_col.J07BG01_product_template
+#: model:product.template,uom_name:doctor_col.J07BH01_product_template
+#: model:product.template,uom_name:doctor_col.J07BL01_product_template
+#: model:product.template,uom_name:doctor_col.J07CA99_product_template
+#: model:product.template,uom_name:doctor_col.L01AA01_product_template
+#: model:product.template,uom_name:doctor_col.L01AA02_product_template
+#: model:product.template,uom_name:doctor_col.L01AA03_product_template
+#: model:product.template,uom_name:doctor_col.L01AB01_product_template
+#: model:product.template,uom_name:doctor_col.L01AX04_product_template
+#: model:product.template,uom_name:doctor_col.L01BA01_product_template
+#: model:product.template,uom_name:doctor_col.L01BB02_product_template
+#: model:product.template,uom_name:doctor_col.L01BC01_product_template
+#: model:product.template,uom_name:doctor_col.L01BC02_product_template
+#: model:product.template,uom_name:doctor_col.L01BC05_product_template
+#: model:product.template,uom_name:doctor_col.L01BC06_product_template
+#: model:product.template,uom_name:doctor_col.L01CA01_product_template
+#: model:product.template,uom_name:doctor_col.L01CA02_product_template
+#: model:product.template,uom_name:doctor_col.L01CB01_product_template
+#: model:product.template,uom_name:doctor_col.L01CD01_product_template
+#: model:product.template,uom_name:doctor_col.L01DB01_product_template
+#: model:product.template,uom_name:doctor_col.L01DC01_product_template
+#: model:product.template,uom_name:doctor_col.L01XA01_product_template
+#: model:product.template,uom_name:doctor_col.L01XA02_product_template
+#: model:product.template,uom_name:doctor_col.L01XC02_product_template
+#: model:product.template,uom_name:doctor_col.L01XC03_product_template
+#: model:product.template,uom_name:doctor_col.L01XE01_product_template
+#: model:product.template,uom_name:doctor_col.L01XX02_product_template
+#: model:product.template,uom_name:doctor_col.L01XX09_product_template
+#: model:product.template,uom_name:doctor_col.L02BA01_product_template
+#: model:product.template,uom_name:doctor_col.L03AA13_product_template
+#: model:product.template,uom_name:doctor_col.L03AX03_product_template
+#: model:product.template,uom_name:doctor_col.L04AA06_product_template
+#: model:product.template,uom_name:doctor_col.L04AA13_product_template
+#: model:product.template,uom_name:doctor_col.L04AB01_product_template
+#: model:product.template,uom_name:doctor_col.L04AD01_product_template
+#: model:product.template,uom_name:doctor_col.L04AX01_product_template
+#: model:product.template,uom_name:doctor_col.L04AX02_product_template
+#: model:product.template,uom_name:doctor_col.M01AB05_product_template
+#: model:product.template,uom_name:doctor_col.M01AE01_product_template
+#: model:product.template,uom_name:doctor_col.M01AE02_product_template
+#: model:product.template,uom_name:doctor_col.M01CC01_product_template
+#: model:product.template,uom_name:doctor_col.M03AB01_product_template
+#: model:product.template,uom_name:doctor_col.M03AC01_product_template
+#: model:product.template,uom_name:doctor_col.M03AC03_product_template
+#: model:product.template,uom_name:doctor_col.M03BA03_product_template
+#: model:product.template,uom_name:doctor_col.M04AA01_product_template
+#: model:product.template,uom_name:doctor_col.M04AC01_product_template
+#: model:product.template,uom_name:doctor_col.M05BA02_product_template
+#: model:product.template,uom_name:doctor_col.M05BA03_product_template
+#: model:product.template,uom_name:doctor_col.M05BA04_product_template
+#: model:product.template,uom_name:doctor_col.M05BA06_product_template
+#: model:product.template,uom_name:doctor_col.M05BA08_product_template
+#: model:product.template,uom_name:doctor_col.N01AB01_product_template
+#: model:product.template,uom_name:doctor_col.N01AB04_product_template
+#: model:product.template,uom_name:doctor_col.N01AB06_product_template
+#: model:product.template,uom_name:doctor_col.N01AF03_product_template
+#: model:product.template,uom_name:doctor_col.N01AH01_product_template
+#: model:product.template,uom_name:doctor_col.N01BB01_product_template
+#: model:product.template,uom_name:doctor_col.N01BB02_product_template
+#: model:product.template,uom_name:doctor_col.N01BB51_product_template
+#: model:product.template,uom_name:doctor_col.N01BB52_product_template
+#: model:product.template,uom_name:doctor_col.N02AA01_product_template
+#: model:product.template,uom_name:doctor_col.N02AA03_product_template
+#: model:product.template,uom_name:doctor_col.N02AA05_product_template
+#: model:product.template,uom_name:doctor_col.N02AA08_product_template
+#: model:product.template,uom_name:doctor_col.N02AB02_product_template
+#: model:product.template,uom_name:doctor_col.N02AB03_product_template
+#: model:product.template,uom_name:doctor_col.N02AC52_product_template
+#: model:product.template,uom_name:doctor_col.N02AX02_product_template
+#: model:product.template,uom_name:doctor_col.N02BA01_product_template
+#: model:product.template,uom_name:doctor_col.N02BB02_product_template
+#: model:product.template,uom_name:doctor_col.N02BE01_product_template
+#: model:product.template,uom_name:doctor_col.N02CA52_product_template
+#: model:product.template,uom_name:doctor_col.N03AA02_product_template
+#: model:product.template,uom_name:doctor_col.N03AB02_product_template
+#: model:product.template,uom_name:doctor_col.N03AE01_product_template
+#: model:product.template,uom_name:doctor_col.N03AF01_product_template
+#: model:product.template,uom_name:doctor_col.N03AG01_product_template
+#: model:product.template,uom_name:doctor_col.N03AX09_product_template
+#: model:product.template,uom_name:doctor_col.N04AA02_product_template
+#: model:product.template,uom_name:doctor_col.N04BA02_product_template
+#: model:product.template,uom_name:doctor_col.N04BA03_product_template
+#: model:product.template,uom_name:doctor_col.N04BB01_product_template
+#: model:product.template,uom_name:doctor_col.N04BC01_product_template
+#: model:product.template,uom_name:doctor_col.N05AA02_product_template
+#: model:product.template,uom_name:doctor_col.N05AC02_product_template
+#: model:product.template,uom_name:doctor_col.N05AC04_product_template
+#: model:product.template,uom_name:doctor_col.N05AD01_product_template
+#: model:product.template,uom_name:doctor_col.N05AH02_product_template
+#: model:product.template,uom_name:doctor_col.N05AH03_product_template
+#: model:product.template,uom_name:doctor_col.N05AN01_product_template
+#: model:product.template,uom_name:doctor_col.N05AX08_product_template
+#: model:product.template,uom_name:doctor_col.N05BA01_product_template
+#: model:product.template,uom_name:doctor_col.N05BA06_product_template
+#: model:product.template,uom_name:doctor_col.N05BA12_product_template
+#: model:product.template,uom_name:doctor_col.N05BB01_product_template
+#: model:product.template,uom_name:doctor_col.N05CD08_product_template
+#: model:product.template,uom_name:doctor_col.N06AA02_product_template
+#: model:product.template,uom_name:doctor_col.N06AA09_product_template
+#: model:product.template,uom_name:doctor_col.N06AB03_product_template
+#: model:product.template,uom_name:doctor_col.N06AB06_product_template
+#: model:product.template,uom_name:doctor_col.N06AX05_product_template
+#: model:product.template,uom_name:doctor_col.N06BA04_product_template
+#: model:product.template,uom_name:doctor_col.N06DA03_product_template
+#: model:product.template,uom_name:doctor_col.N07AA01_product_template
+#: model:product.template,uom_name:doctor_col.N07AA02_product_template
+#: model:product.template,uom_name:doctor_col.N07CA91_product_template
+#: model:product.template,uom_name:doctor_col.P01AB01_product_template
+#: model:product.template,uom_name:doctor_col.P01AB02_product_template
+#: model:product.template,uom_name:doctor_col.P01AC04_product_template
+#: model:product.template,uom_name:doctor_col.P01BA01_product_template
+#: model:product.template,uom_name:doctor_col.P01BA03_product_template
+#: model:product.template,uom_name:doctor_col.P01BC02_product_template
+#: model:product.template,uom_name:doctor_col.P01BD01_product_template
+#: model:product.template,uom_name:doctor_col.P01BD51_product_template
+#: model:product.template,uom_name:doctor_col.P01BE03_product_template
+#: model:product.template,uom_name:doctor_col.P01BE52_product_template
+#: model:product.template,uom_name:doctor_col.P01CB01_product_template
+#: model:product.template,uom_name:doctor_col.P01CB02_product_template
+#: model:product.template,uom_name:doctor_col.P01CX01_product_template
+#: model:product.template,uom_name:doctor_col.P02BA01_product_template
+#: model:product.template,uom_name:doctor_col.P02CA01_product_template
+#: model:product.template,uom_name:doctor_col.P02CA03_product_template
+#: model:product.template,uom_name:doctor_col.P02CB01_product_template
+#: model:product.template,uom_name:doctor_col.P02CC01_product_template
+#: model:product.template,uom_name:doctor_col.P03AX01_product_template
+#: model:product.template,uom_name:doctor_col.R01AA05_product_template
+#: model:product.template,uom_name:doctor_col.R01AC01_product_template
+#: model:product.template,uom_name:doctor_col.R01AD01_product_template
+#: model:product.template,uom_name:doctor_col.R01AX03_product_template
+#: model:product.template,uom_name:doctor_col.R03AC02_product_template
+#: model:product.template,uom_name:doctor_col.R03AC03_product_template
+#: model:product.template,uom_name:doctor_col.R03BA01_product_template
+#: model:product.template,uom_name:doctor_col.R03CC02_product_template
+#: model:product.template,uom_name:doctor_col.R03CC03_product_template
+#: model:product.template,uom_name:doctor_col.R03DA04_product_template
+#: model:product.template,uom_name:doctor_col.R03DA05_product_template
+#: model:product.template,uom_name:doctor_col.R05CB01_product_template
+#: model:product.template,uom_name:doctor_col.R06AA02_product_template
+#: model:product.template,uom_name:doctor_col.R06AB04_product_template
+#: model:product.template,uom_name:doctor_col.R06AX13_product_template
+#: model:product.template,uom_name:doctor_col.R06AX17_product_template
+#: model:product.template,uom_name:doctor_col.S01AA01_product_template
+#: model:product.template,uom_name:doctor_col.S01AA11_product_template
+#: model:product.template,uom_name:doctor_col.S01AB04_product_template
+#: model:product.template,uom_name:doctor_col.S01AD03_product_template
+#: model:product.template,uom_name:doctor_col.S01BA07_product_template
+#: model:product.template,uom_name:doctor_col.S01CA02_product_template
+#: model:product.template,uom_name:doctor_col.S01EA05_product_template
+#: model:product.template,uom_name:doctor_col.S01EB01_product_template
+#: model:product.template,uom_name:doctor_col.S01EC01_product_template
+#: model:product.template,uom_name:doctor_col.S01ED01_product_template
+#: model:product.template,uom_name:doctor_col.S01EE01_product_template
+#: model:product.template,uom_name:doctor_col.S01FA01_product_template
+#: model:product.template,uom_name:doctor_col.S01FA56_product_template
+#: model:product.template,uom_name:doctor_col.S01GX01_product_template
+#: model:product.template,uom_name:doctor_col.S01JA01_product_template
+#: model:product.template,uom_name:doctor_col.S02CA06_product_template
+#: model:product.template,uom_name:doctor_col.S03CA01_product_template
+#: model:product.template,uom_name:doctor_col.V03AB04_product_template
+#: model:product.template,uom_name:doctor_col.V03AB14_product_template
+#: model:product.template,uom_name:doctor_col.V03AB15_product_template
+#: model:product.template,uom_name:doctor_col.V03AB23_product_template
+#: model:product.template,uom_name:doctor_col.V03AE01_product_template
+#: model:product.template,uom_name:doctor_col.V03AE02_product_template
+#: model:product.template,uom_name:doctor_col.V03AF03_product_template
+#: model:product.template,uom_name:doctor_col.V03AN01_product_template
+#: model:product.template,uom_name:doctor_col.V07AB99_product_template
+#: model:product.template,uom_name:doctor_col.V08AA01_product_template
+#: model:product.template,uom_name:doctor_col.V08AA04_product_template
+#: model:product.template,uom_name:doctor_col.V08AB02_product_template
+#: model:product.template,uom_name:doctor_col.V08AB04_product_template
+#: model:product.template,uom_name:doctor_col.V08AB05_product_template
+#: model:product.template,uom_name:doctor_col.V08AB07_product_template
+#: model:product.template,uom_name:doctor_col.V08BA01_product_template
+#: model:product.template,uom_name:doctor_col.V08CA01_product_template
+msgid "Unit(s)"
+msgstr "Unidad(es)"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__message_unread
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__message_unread
+msgid "Unread Messages"
+msgstr "Mensajes por leer"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__message_unread_counter
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de mensajes sin leer"
+
+#. module: doctor_col
+#: selection:doctor.doctor,residence_area:0
+#: selection:doctor.patient,residence_area:0
+msgid "Urban"
+msgstr "Urbana"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__barcode
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__barcode
+msgid "Use a barcode to identify this contact from the Point of Sale."
+msgstr "Use un código de barras para identificar este contacto desde el punto de venta."
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__type
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__type
+msgid "Used by Sales and Purchase Apps to select the relevant address depending on the context."
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__login
+msgid "Used to log into the system"
+msgstr "Utilizado para conectarse al sistema."
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__log_ids
+msgid "User log entries"
+msgstr "Registros de entrada de usuarios"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__sale_team_id
+msgid "User's Sales Team"
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__res_user_id
+msgid "User-related data of the user"
+msgstr ""
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__user_ids
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__user_ids
+msgid "Users"
+msgstr "Usuarios"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__currency_id
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__currency_id
+msgid "Utility field to express amount currency"
+msgstr "Campo útil para expresar importe en divisa."
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__verificationDigit
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__verificationDigit
+msgid "VD"
+msgstr "DV"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__property_supplier_payment_term_id
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__property_supplier_payment_term_id
+msgid "Vendor Payment Terms"
+msgstr "Términos de Pago"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_attention_view_form
+msgid "Vital Signs"
+msgstr "Signos Vitales"
+
+#. module: doctor_col
+#: selection:doctor.appointment,state:0
+msgid "Waiting"
+msgstr "Esperando"
+
+#. module: doctor_col
+#: model:ir.ui.menu,name:doctor_col.clinic_menu_appointment
+msgid "Waiting Room"
+msgstr "Sala de Espera"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__website
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__website
+msgid "Website"
+msgstr "Sitio web"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__website_message_ids
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__website_message_ids
+msgid "Website Messages"
+msgstr "Mensajes del sitio web"
+
+#. module: doctor_col
+#: model:ir.model.fields,help:doctor_col.field_doctor_doctor__website_message_ids
+#: model:ir.model.fields,help:doctor_col.field_doctor_patient__website_message_ids
+msgid "Website communication history"
+msgstr "Historial de comunicaciones del sitio web"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_attention__weight
+msgid "Weight (kg)"
+msgstr "Peso (Kg)"
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_doctor__zip
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_patient__zip
+msgid "Zip"
+msgstr "C.P."
+
+#. module: doctor_col
+#: model:ir.model.fields,field_description:doctor_col.field_doctor_health_procedures__quantity
+msgid "quantity"
+msgstr "Cantidad"
+
+#. module: doctor_col
+#: model_terms:ir.ui.view,arch_db:doctor_col.doctor_speciality_view_tree
+msgid "speciality"
+msgstr "Especialidad"
+
+
+

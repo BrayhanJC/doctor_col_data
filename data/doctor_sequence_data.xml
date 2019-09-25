@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<odoo>
+	
+		<record id="doctor_appoinment_seq" model="ir.sequence">
+			<field name="name">N° of Appoinment</field>
+			<field name="code">doctor.appoinment</field>
+			<field name="prefix">Appoinment-%(month)s-s%(y)s-</field>
+			<field name="padding">5</field>
+			<field name="active">TRUE</field>
+			<field eval="1" name="number_next"/>
+			<field eval="1" name="number_increment"/>
+			<field name="implementation">standard</field>
+		</record>
+
+		<record id="doctor_attention_seq" model="ir.sequence">
+			<field name="name">N° of Attentions</field>
+			<field name="code">doctor.attention</field>
+			<field name="prefix">AT-%(month)s-s%(y)s-</field>
+			<field name="padding">4</field>
+			<field name="active">TRUE</field>
+			<field eval="1" name="number_next"/>
+			<field eval="1" name="number_increment"/>
+			<field name="implementation">standard</field>
+			<!--
+				<field name="prefix">AT-%(month)s%(y)s-</field>
+			-->
+		</record>
+
+		<record id="doctor_disability_seq" model="ir.sequence">
+			<field name="name">N° of Disability</field>
+			<field name="code">doctor.disability</field>
+			<field name="prefix">Disability-%(month)s-s%(y)s-</field>
+			<field name="padding">5</field>
+			<field name="active">TRUE</field>
+			<field eval="1" name="number_next"/>
+			<field eval="1" name="number_increment"/>
+			<field name="implementation">standard</field>
+		</record>
+
+
+
+
+
+</odoo>
