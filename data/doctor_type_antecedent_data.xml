@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-	
+    <data noupdate="1">
 
-		<record model='doctor.type_antecedent' id='001'>
-			<field name='name'>Patológicos</field>
+		<record model="doctor.type_antecedent" id="data_type_antecedent_001">
+			<field name="name">Patológicos</field>
 		</record>
 
-		<record model='doctor.type_antecedent' id='020'>
-			<field name='name'>Farmacológicos</field>
+		<record model="doctor.type_antecedent" id="data_type_antecedent_020">
+			<field name="name">Farmacológicos</field>
 		</record>
 
-		<record model='doctor.type_antecedent' id='021'>
-			<field name='name'>Hereditarios</field>
+		<record model="doctor.type_antecedent" id="data_type_antecedent_021">
+			<field name="name">Hereditarios</field>
 		</record>
 
-		<record model='doctor.type_antecedent' id='022'>
-			<field name='name'>Hábitos</field>
+		<record model="doctor.type_antecedent" id="data_type_antecedent_022">
+			<field name="name">Hábitos</field>
 		</record>
 
-		<record model='doctor.type_antecedent' id='023'>
-			<field name='name'>Personales</field>
+		<record model="doctor.type_antecedent" id="data_type_antecedent_023">
+			<field name="name">Personales</field>
 		</record>
 
-		<record model='doctor.type_antecedent' id='040'>
-			<field name='name'>Quirúrgicos</field>
+		<record model="doctor.type_antecedent" id="data_type_antecedent_040">
+			<field name="name">Quirúrgicos</field>
 		</record>
-
-
+		
+	</data>
 
 </odoo>

@@ -1,62 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
+    <data noupdate="1">
 
-
-		<record model='doctor.type_physical_exam' id='001'>
-			<field name='name'>CABEZA</field>
+		<record model="doctor.type_physical_exam" id="data_type_physical_exam_001">
+			<field name="name">CABEZA</field>
 		</record>
 
-		<record model='doctor.type_physical_exam' id='020'>
-			<field name='name'>OJOS</field>
+		<record model="doctor.type_physical_exam" id="data_type_physical_exam_020">
+			<field name="name">OJOS</field>
 		</record>
 
-		<record model='doctor.type_physical_exam' id='021'>
-			<field name='name'>OIDOS</field>
+		<record model="doctor.type_physical_exam" id="data_type_physical_exam_021">
+			<field name="name">OIDOS</field>
 		</record>
 
-		<record model='doctor.type_physical_exam' id='022'>
-			<field name='name'>NARIZ</field>
+		<record model="doctor.type_physical_exam" id="data_type_physical_exam_022">
+			<field name="name">NARIZ</field>
 		</record>
 
-		<record model='doctor.type_physical_exam' id='023'>
-			<field name='name'>ORAL</field>
+		<record model="doctor.type_physical_exam" id="data_type_physical_exam_023">
+			<field name="name">ORAL</field>
 		</record>
 
-		<record model='doctor.type_physical_exam' id='040'>
-			<field name='name'>CUELLO</field>
+		<record model="doctor.type_physical_exam" id="data_type_physical_exam_040">
+			<field name="name">CUELLO</field>
 		</record>
 
-		<record model='doctor.type_physical_exam' id='041'>
-			<field name='name'>DORSO</field>
+		<record model="doctor.type_physical_exam" id="data_type_physical_exam_041">
+			<field name="name">DORSO</field>
 		</record>
 
-		<record model='doctor.type_physical_exam' id='042'>
-			<field name='name'>TORAX</field>
+		<record model="doctor.type_physical_exam" id="data_type_physical_exam_042">
+			<field name="name">TORAX</field>
 		</record>
 
-		<record model='doctor.type_physical_exam' id='043'>
-			<field name='name'>ABDOMEN</field>
+		<record model="doctor.type_physical_exam" id="data_type_physical_exam_043">
+			<field name="name">ABDOMEN</field>
 		</record>
 
-		<record model='doctor.type_physical_exam' id='044'>
-			<field name='name'>EXTREMIDADES</field>
+		<record model="doctor.type_physical_exam" id="data_type_physical_exam_044">
+			<field name="name">EXTREMIDADES</field>
 		</record>
 
-		<record model='doctor.type_physical_exam' id='045'>
-			<field name='name'>PIEL</field>
+		<record model="doctor.type_physical_exam" id="data_type_physical_exam_045">
+			<field name="name">PIEL</field>
 		</record>
 
-		<record model='doctor.type_physical_exam' id='046'>
-			<field name='name'>MENTAL</field>
+		<record model="doctor.type_physical_exam" id="data_type_physical_exam_046">
+			<field name="name">MENTAL</field>
 		</record>
 
-		<record model='doctor.type_physical_exam' id='047'>
-			<field name='name'>GANITOURINARIO</field>
+		<record model="doctor.type_physical_exam" id="data_type_physical_exam_047">
+			<field name="name">GANITOURINARIO</field>
 		</record>
 
-		<record model='doctor.type_physical_exam' id='048'>
-			<field name='name'>NEUROLOGIO</field>
+		<record model="doctor.type_physical_exam" id="data_type_physical_exam_048">
+			<field name="name">NEUROLOGIO</field>
 		</record>
 		
-
+	</data>
 </odoo>

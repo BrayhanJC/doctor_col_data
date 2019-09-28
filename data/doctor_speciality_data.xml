@@ -1,539 +1,539 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <data noupdate="1">
-        <record model='doctor.speciality' id='001'>
-                <field name='name'>ACTIVIDAD FISICO TERAPEUTICA</field>
+        <record model="doctor.speciality" id="data_speciality_001">
+                <field name="name">ACTIVIDAD FISICO TERAPEUTICA</field>
         </record> 
-        <record model='doctor.speciality' id='020'>
-                <field name='name'>ANESTESIA CARDIOTORAXICA</field>
+        <record model="doctor.speciality" id="data_speciality_020">
+                <field name="name">ANESTESIA CARDIOTORAXICA</field>
         </record> 
-        <record model='doctor.speciality' id='021'>
-                <field name='name'>ANESTESIOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_021">
+                <field name="name">ANESTESIOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='022'>
-                <field name='name'>ANESTESIOLOGIA Y REANIMACION</field>
+        <record model="doctor.speciality" id="data_speciality_022">
+                <field name="name">ANESTESIOLOGIA Y REANIMACION</field>
         </record> 
-        <record model='doctor.speciality' id='023'>
-                <field name='name'>ANESTESIOLOGIA, CUIDADOS INTENSIVOS Y REANIMACION</field>
+        <record model="doctor.speciality" id="data_speciality_023">
+                <field name="name">ANESTESIOLOGIA, CUIDADOS INTENSIVOS Y REANIMACION</field>
         </record> 
-        <record model='doctor.speciality' id='040'>
-                <field name='name'>ATENCION DE ENFERMERIA EN QUIROFANOS Y CENTROS DE ESTERILIZACION</field>
+        <record model="doctor.speciality" id="data_speciality_040">
+                <field name="name">ATENCION DE ENFERMERIA EN QUIROFANOS Y CENTROS DE ESTERILIZACION</field>
         </record> 
-        <record model='doctor.speciality' id='041'>
-                <field name='name'>ATENCION DE ENFERMERIA EN URGENCIAS</field>
+        <record model="doctor.speciality" id="data_speciality_041">
+                <field name="name">ATENCION DE ENFERMERIA EN URGENCIAS</field>
         </record> 
-        <record model='doctor.speciality' id='042'>
-                <field name='name'>ENFERMERIA CARDIORESPIRATORIA</field>
+        <record model="doctor.speciality" id="data_speciality_042">
+                <field name="name">ENFERMERIA CARDIORESPIRATORIA</field>
         </record> 
-        <record model='doctor.speciality' id='043'>
-                <field name='name'>ENFERMERIA EN CUIDADO AL NIÑO</field>
+        <record model="doctor.speciality" id="data_speciality_043">
+                <field name="name">ENFERMERIA EN CUIDADO AL NIÑO</field>
         </record> 
-        <record model='doctor.speciality' id='044'>
-                <field name='name'>ENFERMERIA EN CUIDADO CRITICO</field>
+        <record model="doctor.speciality" id="data_speciality_044">
+                <field name="name">ENFERMERIA EN CUIDADO CRITICO</field>
         </record> 
-        <record model='doctor.speciality' id='045'>
-                <field name='name'>ENFERMERIA EN CUIDADO DEL ADULTO EN ESTADO CRITICO DE SALUD</field>
+        <record model="doctor.speciality" id="data_speciality_045">
+                <field name="name">ENFERMERIA EN CUIDADO DEL ADULTO EN ESTADO CRITICO DE SALUD</field>
         </record> 
-        <record model='doctor.speciality' id='046'>
-                <field name='name'>ENFERMERIA EN CUIDADO INTENSIVO</field>
+        <record model="doctor.speciality" id="data_speciality_046">
+                <field name="name">ENFERMERIA EN CUIDADO INTENSIVO</field>
         </record> 
-        <record model='doctor.speciality' id='047'>
-                <field name='name'>ENFERMERIA EN GERONTOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_047">
+                <field name="name">ENFERMERIA EN GERONTOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='048'>
-                <field name='name'>ENFERMERIA EN SALUD FAMILIAR</field>
+        <record model="doctor.speciality" id="data_speciality_048">
+                <field name="name">ENFERMERIA EN SALUD FAMILIAR</field>
         </record> 
-        <record model='doctor.speciality' id='049'>
-                <field name='name'>ENFERMERIA EN SALUD MENTAL</field>
+        <record model="doctor.speciality" id="data_speciality_049">
+                <field name="name">ENFERMERIA EN SALUD MENTAL</field>
         </record> 
-        <record model='doctor.speciality' id='050'>
-                <field name='name'>ENFERMERIA EN SALUD OCUPACIONAL</field>
+        <record model="doctor.speciality" id="data_speciality_050">
+                <field name="name">ENFERMERIA EN SALUD OCUPACIONAL</field>
         </record> 
-        <record model='doctor.speciality' id='051'>
-                <field name='name'>ENFERMERIA MATERNO-PERINATAL</field>
+        <record model="doctor.speciality" id="data_speciality_051">
+                <field name="name">ENFERMERIA MATERNO-PERINATAL</field>
         </record> 
-        <record model='doctor.speciality' id='052'>
-                <field name='name'>ENFERMERIA MEDICO-QUIRURGICA</field>
+        <record model="doctor.speciality" id="data_speciality_052">
+                <field name="name">ENFERMERIA MEDICO-QUIRURGICA</field>
         </record> 
-        <record model='doctor.speciality' id='053'>
-                <field name='name'>ENFERMERIA NEFROLOGICA</field>
+        <record model="doctor.speciality" id="data_speciality_053">
+                <field name="name">ENFERMERIA NEFROLOGICA</field>
         </record> 
-        <record model='doctor.speciality' id='054'>
-                <field name='name'>ENFERMERIA NEFROLOGICA Y UROLOGICA</field>
+        <record model="doctor.speciality" id="data_speciality_054">
+                <field name="name">ENFERMERIA NEFROLOGICA Y UROLOGICA</field>
         </record> 
-        <record model='doctor.speciality' id='055'>
-                <field name='name'>ENFERMERIA NEONATAL</field>
+        <record model="doctor.speciality" id="data_speciality_055">
+                <field name="name">ENFERMERIA NEONATAL</field>
         </record> 
-        <record model='doctor.speciality' id='056'>
-                <field name='name'>ENFERMERIA NEUROLOGICA</field>
+        <record model="doctor.speciality" id="data_speciality_056">
+                <field name="name">ENFERMERIA NEUROLOGICA</field>
         </record> 
-        <record model='doctor.speciality' id='057'>
-                <field name='name'>ENFERMERIA NEUROLOGICA Y NEUROCIRUGIA</field>
+        <record model="doctor.speciality" id="data_speciality_057">
+                <field name="name">ENFERMERIA NEUROLOGICA Y NEUROCIRUGIA</field>
         </record> 
-        <record model='doctor.speciality' id='058'>
-                <field name='name'>ENFERMERIA ONCOLOGICA</field>
+        <record model="doctor.speciality" id="data_speciality_058">
+                <field name="name">ENFERMERIA ONCOLOGICA</field>
         </record> 
-        <record model='doctor.speciality' id='059'>
-                <field name='name'>ENFERMERIA PERINATAL</field>
+        <record model="doctor.speciality" id="data_speciality_059">
+                <field name="name">ENFERMERIA PERINATAL</field>
         </record> 
-        <record model='doctor.speciality' id='080'>
-                <field name='name'>ATENCION EN DESASTRES Y EMERGENCIAS</field>
+        <record model="doctor.speciality" id="data_speciality_080">
+                <field name="name">ATENCION EN DESASTRES Y EMERGENCIAS</field>
         </record> 
-        <record model='doctor.speciality' id='090'>
-                <field name='name'>ATENCION FARMACEUTICA</field>
+        <record model="doctor.speciality" id="data_speciality_090">
+                <field name="name">ATENCION FARMACEUTICA</field>
         </record> 
-        <record model='doctor.speciality' id='100'>
-                <field name='name'>AUDIOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_100">
+                <field name="name">AUDIOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='101'>
-                <field name='name'>AUDIOPROTESIS</field>
+        <record model="doctor.speciality" id="data_speciality_101">
+                <field name="name">AUDIOPROTESIS</field>
         </record> 
-        <record model='doctor.speciality' id='110'>
-                <field name='name'>BIOMATERIALES, OPERATORIA DENTAL Y ESTETICA</field>
+        <record model="doctor.speciality" id="data_speciality_110">
+                <field name="name">BIOMATERIALES, OPERATORIA DENTAL Y ESTETICA</field>
         </record> 
-        <record model='doctor.speciality' id='120'>
-                <field name='name'>CARDIOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_120">
+                <field name="name">CARDIOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='121'>
-                <field name='name'>CARDIOLOGIA INTERVENCIONISTA Y HEMODINAMICA</field>
+        <record model="doctor.speciality" id="data_speciality_121">
+                <field name="name">CARDIOLOGIA INTERVENCIONISTA Y HEMODINAMICA</field>
         </record> 
-        <record model='doctor.speciality' id='122'>
-                <field name='name'>CARDIOLOGIA PEDIATRICA</field>
+        <record model="doctor.speciality" id="data_speciality_122">
+                <field name="name">CARDIOLOGIA PEDIATRICA</field>
         </record> 
-        <record model='doctor.speciality' id='130'>
-                <field name='name'>CIRUGIA CARDIOVASCULAR</field>
+        <record model="doctor.speciality" id="data_speciality_130">
+                <field name="name">CIRUGIA CARDIOVASCULAR</field>
         </record> 
-        <record model='doctor.speciality' id='131'>
-                <field name='name'>CIRUGIA DE CABEZA Y CUELLO</field>
+        <record model="doctor.speciality" id="data_speciality_131">
+                <field name="name">CIRUGIA DE CABEZA Y CUELLO</field>
         </record> 
-        <record model='doctor.speciality' id='132'>
-                <field name='name'>CIRUGIA DE LA MAMA Y TUMORES DE TEJIDOS BLANDOS</field>
+        <record model="doctor.speciality" id="data_speciality_132">
+                <field name="name">CIRUGIA DE LA MAMA Y TUMORES DE TEJIDOS BLANDOS</field>
         </record> 
-        <record model='doctor.speciality' id='133'>
-                <field name='name'>CIRUGIA DE LA MANO</field>
+        <record model="doctor.speciality" id="data_speciality_133">
+                <field name="name">CIRUGIA DE LA MANO</field>
         </record> 
-        <record model='doctor.speciality' id='134'>
-                <field name='name'>CIRUGIA DEL TORAX</field>
+        <record model="doctor.speciality" id="data_speciality_134">
+                <field name="name">CIRUGIA DEL TORAX</field>
         </record> 
-        <record model='doctor.speciality' id='135'>
-                <field name='name'>CIRUGIA DERMATOLOGICA</field>
+        <record model="doctor.speciality" id="data_speciality_135">
+                <field name="name">CIRUGIA DERMATOLOGICA</field>
         </record> 
-        <record model='doctor.speciality' id='136'>
-                <field name='name'>CIRUGIA GASTROINTESTINAL Y ENDOSCOPIA DIGESTIVA</field>
+        <record model="doctor.speciality" id="data_speciality_136">
+                <field name="name">CIRUGIA GASTROINTESTINAL Y ENDOSCOPIA DIGESTIVA</field>
         </record> 
-        <record model='doctor.speciality' id='137'>
-                <field name='name'>CIRUGIA GENERAL</field>
+        <record model="doctor.speciality" id="data_speciality_137">
+                <field name="name">CIRUGIA GENERAL</field>
         </record> 
-        <record model='doctor.speciality' id='138'>
-                <field name='name'>CIRUGIA MAXILOFACIAL</field>
+        <record model="doctor.speciality" id="data_speciality_138">
+                <field name="name">CIRUGIA MAXILOFACIAL</field>
         </record> 
-        <record model='doctor.speciality' id='139'>
-                <field name='name'>CIRUGIA ONCOLOGICA</field>
+        <record model="doctor.speciality" id="data_speciality_139">
+                <field name="name">CIRUGIA ONCOLOGICA</field>
         </record> 
-        <record model='doctor.speciality' id='140'>
-                <field name='name'>CIRUGIA ORAL Y MAXILOFACIAL</field>
+        <record model="doctor.speciality" id="data_speciality_140">
+                <field name="name">CIRUGIA ORAL Y MAXILOFACIAL</field>
         </record> 
-        <record model='doctor.speciality' id='141'>
-                <field name='name'>CIRUGIA ORTOPEDICA Y TRAUMATOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_141">
+                <field name="name">CIRUGIA ORTOPEDICA Y TRAUMATOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='142'>
-                <field name='name'>CIRUGIA PEDIATRICA</field>
+        <record model="doctor.speciality" id="data_speciality_142">
+                <field name="name">CIRUGIA PEDIATRICA</field>
         </record> 
-        <record model='doctor.speciality' id='143'>
-                <field name='name'>CIRUGIA PLASTICA</field>
+        <record model="doctor.speciality" id="data_speciality_143">
+                <field name="name">CIRUGIA PLASTICA</field>
         </record> 
-        <record model='doctor.speciality' id='144'>
-                <field name='name'>CIRUGIA PLASTICA ESTETICA, MAXILOFACIAL Y DE LA MANO</field>
+        <record model="doctor.speciality" id="data_speciality_144">
+                <field name="name">CIRUGIA PLASTICA ESTETICA, MAXILOFACIAL Y DE LA MANO</field>
         </record> 
-        <record model='doctor.speciality' id='145'>
-                <field name='name'>CIRUGIA PLASTICA FACIAL</field>
+        <record model="doctor.speciality" id="data_speciality_145">
+                <field name="name">CIRUGIA PLASTICA FACIAL</field>
         </record> 
-        <record model='doctor.speciality' id='146'>
-                <field name='name'>CIRUGIA PLASTICA MAXILOFACIAL Y DE LA MANO</field>
+        <record model="doctor.speciality" id="data_speciality_146">
+                <field name="name">CIRUGIA PLASTICA MAXILOFACIAL Y DE LA MANO</field>
         </record> 
-        <record model='doctor.speciality' id='147'>
-                <field name='name'>CIRUGIA PLASTICA ONCOLOGICA</field>
+        <record model="doctor.speciality" id="data_speciality_147">
+                <field name="name">CIRUGIA PLASTICA ONCOLOGICA</field>
         </record> 
-        <record model='doctor.speciality' id='148'>
-                <field name='name'>CIRUGIA VASCULAR Y ANGIOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_148">
+                <field name="name">CIRUGIA VASCULAR Y ANGIOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='149'>
-                <field name='name'>CIRUGIA, IMPLANTOLOGIA Y PATOLOGIA ORAL</field>
+        <record model="doctor.speciality" id="data_speciality_149">
+                <field name="name">CIRUGIA, IMPLANTOLOGIA Y PATOLOGIA ORAL</field>
         </record> 
-        <record model='doctor.speciality' id='160'>
-                <field name='name'>COLOPROCTOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_160">
+                <field name="name">COLOPROCTOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='170'>
-                <field name='name'>COMUNICACIÓN EDUCATIVA PARA LA SALUD Y EL BIENESTAR</field>
+        <record model="doctor.speciality" id="data_speciality_170">
+                <field name="name">COMUNICACIÓN EDUCATIVA PARA LA SALUD Y EL BIENESTAR</field>
         </record> 
-        <record model='doctor.speciality' id='180'>
-                <field name='name'>CORNEA Y ENFERMEDADES EXTERNAS</field>
+        <record model="doctor.speciality" id="data_speciality_180">
+                <field name="name">CORNEA Y ENFERMEDADES EXTERNAS</field>
         </record> 
-        <record model='doctor.speciality' id='190'>
-                <field name='name'>CUIDADO DEL PACIENTE EN ESTADO CRITICO</field>
+        <record model="doctor.speciality" id="data_speciality_190">
+                <field name="name">CUIDADO DEL PACIENTE EN ESTADO CRITICO</field>
         </record> 
-        <record model='doctor.speciality' id='195'>
-                <field name='name'>CUIDADO RESPIRATORIO</field>
+        <record model="doctor.speciality" id="data_speciality_195">
+                <field name="name">CUIDADO RESPIRATORIO</field>
         </record> 
-        <record model='doctor.speciality' id='200'>
-                <field name='name'>DERMATOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_200">
+                <field name="name">DERMATOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='201'>
-                <field name='name'>DERMATOLOGIA ONCOLOGICA</field>
+        <record model="doctor.speciality" id="data_speciality_201">
+                <field name="name">DERMATOLOGIA ONCOLOGICA</field>
         </record> 
-        <record model='doctor.speciality' id='210'>
-                <field name='name'>DESARROLLO DEL LENGUAJE Y SU PATOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_210">
+                <field name="name">DESARROLLO DEL LENGUAJE Y SU PATOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='220'>
-                <field name='name'>DIAGNOSTICO Y MEDICINA ORAL</field>
+        <record model="doctor.speciality" id="data_speciality_220">
+                <field name="name">DIAGNOSTICO Y MEDICINA ORAL</field>
         </record> 
-        <record model='doctor.speciality' id='230'>
-                <field name='name'>DOLOR Y CUIDADOS PALEATIVOS</field>
+        <record model="doctor.speciality" id="data_speciality_230">
+                <field name="name">DOLOR Y CUIDADOS PALEATIVOS</field>
         </record> 
-        <record model='doctor.speciality' id='240'>
-                <field name='name'>ENDOCRINOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_240">
+                <field name="name">ENDOCRINOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='250'>
-                <field name='name'>ENDODONCIA</field>
+        <record model="doctor.speciality" id="data_speciality_250">
+                <field name="name">ENDODONCIA</field>
         </record> 
-        <record model='doctor.speciality' id='260'>
-                <field name='name'>EPIDEMIOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_260">
+                <field name="name">EPIDEMIOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='270'>
-                <field name='name'>ERGONOMIA</field>
+        <record model="doctor.speciality" id="data_speciality_270">
+                <field name="name">ERGONOMIA</field>
         </record> 
-        <record model='doctor.speciality' id='280'>
-                <field name='name'>ESTOMATOLOGIA PEDIATRICA</field>
+        <record model="doctor.speciality" id="data_speciality_280">
+                <field name="name">ESTOMATOLOGIA PEDIATRICA</field>
         </record> 
-        <record model='doctor.speciality' id='281'>
-                <field name='name'>ESTOMATOLOGIA Y CIRUGIA ORAL</field>
+        <record model="doctor.speciality" id="data_speciality_281">
+                <field name="name">ESTOMATOLOGIA Y CIRUGIA ORAL</field>
         </record> 
-        <record model='doctor.speciality' id='282'>
-                <field name='name'>ESTOMATOLOGIA Y SALUD ORAL</field>
+        <record model="doctor.speciality" id="data_speciality_282">
+                <field name="name">ESTOMATOLOGIA Y SALUD ORAL</field>
         </record> 
-        <record model='doctor.speciality' id='290'>
-                <field name='name'>FISIOTERAPIA EN CUIDADO CRITICO</field>
+        <record model="doctor.speciality" id="data_speciality_290">
+                <field name="name">FISIOTERAPIA EN CUIDADO CRITICO</field>
         </record> 
-        <record model='doctor.speciality' id='300'>
-                <field name='name'>FONIATRIA</field>
+        <record model="doctor.speciality" id="data_speciality_300">
+                <field name="name">FONIATRIA</field>
         </record> 
-        <record model='doctor.speciality' id='310'>
-                <field name='name'>GASTROENTEROLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_310">
+                <field name="name">GASTROENTEROLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='311'>
-                <field name='name'>GASTROENTEROLOGIA Y ENDOSCOPIA DIGESTIVA</field>
+        <record model="doctor.speciality" id="data_speciality_311">
+                <field name="name">GASTROENTEROLOGIA Y ENDOSCOPIA DIGESTIVA</field>
         </record> 
-        <record model='doctor.speciality' id='320'>
-                <field name='name'>GERIATRIA CLINICA</field>
+        <record model="doctor.speciality" id="data_speciality_320">
+                <field name="name">GERIATRIA CLINICA</field>
         </record> 
-        <record model='doctor.speciality' id='330'>
-                <field name='name'>GERONTOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_330">
+                <field name="name">GERONTOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='331'>
-                <field name='name'>GERONTOLOGIA SOCIAL</field>
+        <record model="doctor.speciality" id="data_speciality_331">
+                <field name="name">GERONTOLOGIA SOCIAL</field>
         </record> 
-        <record model='doctor.speciality' id='340'>
-                <field name='name'>GINECOLOGIA ONCOLOGICA</field>
+        <record model="doctor.speciality" id="data_speciality_340">
+                <field name="name">GINECOLOGIA ONCOLOGICA</field>
         </record> 
-        <record model='doctor.speciality' id='341'>
-                <field name='name'>GINECOLOGIA Y OBSTETRICIA</field>
+        <record model="doctor.speciality" id="data_speciality_341">
+                <field name="name">GINECOLOGIA Y OBSTETRICIA</field>
         </record> 
-        <record model='doctor.speciality' id='350'>
-                <field name='name'>HEMATO ONCOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_350">
+                <field name="name">HEMATO ONCOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='351'>
-                <field name='name'>HEMATOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_351">
+                <field name="name">HEMATOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='352'>
-                <field name='name'>HEMATOLOGIA EN EL LABORATORIO CLINICO Y MANEJO DEL BANCO DE SANGRE</field>
+        <record model="doctor.speciality" id="data_speciality_352">
+                <field name="name">HEMATOLOGIA EN EL LABORATORIO CLINICO Y MANEJO DEL BANCO DE SANGRE</field>
         </record> 
-        <record model='doctor.speciality' id='353'>
-                <field name='name'>LABORATORIO CLINICO DE HEMATOLOGIA Y BANCO DE SANGRE</field>
+        <record model="doctor.speciality" id="data_speciality_353">
+                <field name="name">LABORATORIO CLINICO DE HEMATOLOGIA Y BANCO DE SANGRE</field>
         </record> 
-        <record model='doctor.speciality' id='360'>
-                <field name='name'>IMÁGENES DIAGNOSTICAS</field>
+        <record model="doctor.speciality" id="data_speciality_360">
+                <field name="name">IMÁGENES DIAGNOSTICAS</field>
         </record> 
-        <record model='doctor.speciality' id='361'>
-                <field name='name'>IMAGENOLOGIA ONCOLOGICA</field>
+        <record model="doctor.speciality" id="data_speciality_361">
+                <field name="name">IMAGENOLOGIA ONCOLOGICA</field>
         </record> 
-        <record model='doctor.speciality' id='370'>
-                <field name='name'>IMPLANTOLOGIA ORAL</field>
+        <record model="doctor.speciality" id="data_speciality_370">
+                <field name="name">IMPLANTOLOGIA ORAL</field>
         </record> 
-        <record model='doctor.speciality' id='371'>
-                <field name='name'>IMPLANTOLOGIA ORALY RECONSTRUCTIVA</field>
+        <record model="doctor.speciality" id="data_speciality_371">
+                <field name="name">IMPLANTOLOGIA ORALY RECONSTRUCTIVA</field>
         </record> 
-        <record model='doctor.speciality' id='380'>
-                <field name='name'>MEDICINA APLICADA A LA ACTIVIDAD FISICA Y AL DEPORTE</field>
+        <record model="doctor.speciality" id="data_speciality_380">
+                <field name="name">MEDICINA APLICADA A LA ACTIVIDAD FISICA Y AL DEPORTE</field>
         </record> 
-        <record model='doctor.speciality' id='381'>
-                <field name='name'>MEDICINA DE LABORATORIO</field>
+        <record model="doctor.speciality" id="data_speciality_381">
+                <field name="name">MEDICINA DE LABORATORIO</field>
         </record> 
-        <record model='doctor.speciality' id='382'>
-                <field name='name'>MEDICINA DE URGENCIAS Y DOMICILIARIA</field>
+        <record model="doctor.speciality" id="data_speciality_382">
+                <field name="name">MEDICINA DE URGENCIAS Y DOMICILIARIA</field>
         </record> 
-        <record model='doctor.speciality' id='383'>
-                <field name='name'>MEDICINA DEL DEPORTE</field>
+        <record model="doctor.speciality" id="data_speciality_383">
+                <field name="name">MEDICINA DEL DEPORTE</field>
         </record> 
-        <record model='doctor.speciality' id='384'>
-                <field name='name'>MEDICINA DEL TRABAJO</field>
+        <record model="doctor.speciality" id="data_speciality_384">
+                <field name="name">MEDICINA DEL TRABAJO</field>
         </record> 
-        <record model='doctor.speciality' id='385'>
-                <field name='name'>MEDICINA FAMILIAR</field>
+        <record model="doctor.speciality" id="data_speciality_385">
+                <field name="name">MEDICINA FAMILIAR</field>
         </record> 
-        <record model='doctor.speciality' id='386'>
-                <field name='name'>MEDICINA FISICA Y REHABILITACION</field>
+        <record model="doctor.speciality" id="data_speciality_386">
+                <field name="name">MEDICINA FISICA Y REHABILITACION</field>
         </record> 
-        <record model='doctor.speciality' id='387'>
-                <field name='name'>MEDICINA INTERNA</field>
+        <record model="doctor.speciality" id="data_speciality_387">
+                <field name="name">MEDICINA INTERNA</field>
         </record> 
-        <record model='doctor.speciality' id='388'>
-                <field name='name'>MEDICINA NUCLEAR</field>
+        <record model="doctor.speciality" id="data_speciality_388">
+                <field name="name">MEDICINA NUCLEAR</field>
         </record> 
-        <record model='doctor.speciality' id='400'>
-                <field name='name'>MICROBIOLOGIA MEDICA</field>
+        <record model="doctor.speciality" id="data_speciality_400">
+                <field name="name">MICROBIOLOGIA MEDICA</field>
         </record> 
-        <record model='doctor.speciality' id='401'>
-                <field name='name'>MICROBIOLOGIA Y PARASITOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_401">
+                <field name="name">MICROBIOLOGIA Y PARASITOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='410'>
-                <field name='name'>NEFROLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_410">
+                <field name="name">NEFROLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='420'>
-                <field name='name'>NEONATOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_420">
+                <field name="name">NEONATOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='430'>
-                <field name='name'>NEUMOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_430">
+                <field name="name">NEUMOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='431'>
-                <field name='name'>NEUMOLOGIA PEDIATRICA</field>
+        <record model="doctor.speciality" id="data_speciality_431">
+                <field name="name">NEUMOLOGIA PEDIATRICA</field>
         </record> 
-        <record model='doctor.speciality' id='440'>
-                <field name='name'>NEUROCIRUGIA</field>
+        <record model="doctor.speciality" id="data_speciality_440">
+                <field name="name">NEUROCIRUGIA</field>
         </record> 
-        <record model='doctor.speciality' id='441'>
-                <field name='name'>NEUROLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_441">
+                <field name="name">NEUROLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='442'>
-                <field name='name'>NEUROLOGIA PEDIATRICA</field>
+        <record model="doctor.speciality" id="data_speciality_442">
+                <field name="name">NEUROLOGIA PEDIATRICA</field>
         </record> 
-        <record model='doctor.speciality' id='443'>
-                <field name='name'>NEUROPSICOPEDAGOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_443">
+                <field name="name">NEUROPSICOPEDAGOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='450'>
-                <field name='name'>NUTRICION CLINICA</field>
+        <record model="doctor.speciality" id="data_speciality_450">
+                <field name="name">NUTRICION CLINICA</field>
         </record> 
-        <record model='doctor.speciality' id='451'>
-                <field name='name'>NUTRICION HUMANA</field>
+        <record model="doctor.speciality" id="data_speciality_451">
+                <field name="name">NUTRICION HUMANA</field>
         </record> 
-        <record model='doctor.speciality' id='460'>
-                <field name='name'>ODONTOLOGIA INTEGRAL DEL ADOLESCENTE Y ORTODONCIA</field>
+        <record model="doctor.speciality" id="data_speciality_460">
+                <field name="name">ODONTOLOGIA INTEGRAL DEL ADOLESCENTE Y ORTODONCIA</field>
         </record> 
-        <record model='doctor.speciality' id='461'>
-                <field name='name'>ODONTOLOGIA INTEGRAL DEL ADULTO</field>
+        <record model="doctor.speciality" id="data_speciality_461">
+                <field name="name">ODONTOLOGIA INTEGRAL DEL ADULTO</field>
         </record> 
-        <record model='doctor.speciality' id='462'>
-                <field name='name'>ODONTOLOGIA PEDIATRICA</field>
+        <record model="doctor.speciality" id="data_speciality_462">
+                <field name="name">ODONTOLOGIA PEDIATRICA</field>
         </record> 
-        <record model='doctor.speciality' id='463'>
-                <field name='name'>ODONTOLOGIA PEDIATRICA Y ORTOPEDIA MAXILAR</field>
+        <record model="doctor.speciality" id="data_speciality_463">
+                <field name="name">ODONTOLOGIA PEDIATRICA Y ORTOPEDIA MAXILAR</field>
         </record> 
-        <record model='doctor.speciality' id='464'>
-                <field name='name'>ODONTOPEDIATRIA CLINICA Y ORTODONCIA PREVENTIVA</field>
+        <record model="doctor.speciality" id="data_speciality_464">
+                <field name="name">ODONTOPEDIATRIA CLINICA Y ORTODONCIA PREVENTIVA</field>
         </record> 
-        <record model='doctor.speciality' id='480'>
-                <field name='name'>OFTALMOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_480">
+                <field name="name">OFTALMOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='481'>
-                <field name='name'>OFTALMOLOGIA ONCOLOGICA</field>
+        <record model="doctor.speciality" id="data_speciality_481">
+                <field name="name">OFTALMOLOGIA ONCOLOGICA</field>
         </record> 
-        <record model='doctor.speciality' id='490'>
-                <field name='name'>ONCO-HEMATOLOGIA PEDIATRICA</field>
+        <record model="doctor.speciality" id="data_speciality_490">
+                <field name="name">ONCO-HEMATOLOGIA PEDIATRICA</field>
         </record> 
-        <record model='doctor.speciality' id='491'>
-                <field name='name'>ONCOLOGIA CLINICA</field>
+        <record model="doctor.speciality" id="data_speciality_491">
+                <field name="name">ONCOLOGIA CLINICA</field>
         </record> 
-        <record model='doctor.speciality' id='492'>
-                <field name='name'>ONCOLOGIA PEDIATRICA</field>
+        <record model="doctor.speciality" id="data_speciality_492">
+                <field name="name">ONCOLOGIA PEDIATRICA</field>
         </record> 
-        <record model='doctor.speciality' id='500'>
-                <field name='name'>OPTOMETRIA</field>
+        <record model="doctor.speciality" id="data_speciality_500">
+                <field name="name">OPTOMETRIA</field>
         </record> 
-        <record model='doctor.speciality' id='510'>
-                <field name='name'>ORTODONCIA</field>
+        <record model="doctor.speciality" id="data_speciality_510">
+                <field name="name">ORTODONCIA</field>
         </record> 
-        <record model='doctor.speciality' id='511'>
-                <field name='name'>ORTOPEDIA FUNCIONAL Y ORTODONCIA</field>
+        <record model="doctor.speciality" id="data_speciality_511">
+                <field name="name">ORTOPEDIA FUNCIONAL Y ORTODONCIA</field>
         </record> 
-        <record model='doctor.speciality' id='512'>
-                <field name='name'>ORTOPEDIA MAXILAR</field>
+        <record model="doctor.speciality" id="data_speciality_512">
+                <field name="name">ORTOPEDIA MAXILAR</field>
         </record> 
-        <record model='doctor.speciality' id='513'>
-                <field name='name'>ORTOPEDIA ONCOLOGICA</field>
+        <record model="doctor.speciality" id="data_speciality_513">
+                <field name="name">ORTOPEDIA ONCOLOGICA</field>
         </record> 
-        <record model='doctor.speciality' id='514'>
-                <field name='name'>ORTOPEDIA Y TRAUMATOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_514">
+                <field name="name">ORTOPEDIA Y TRAUMATOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='520'>
-                <field name='name'>OTOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_520">
+                <field name="name">OTOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='521'>
-                <field name='name'>OTORRINOLARINGOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_521">
+                <field name="name">OTORRINOLARINGOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='522'>
-                <field name='name'>OTORRINOLARINGOLOGIA Y CIRUGIA DE CABEZA Y CUELLO</field>
+        <record model="doctor.speciality" id="data_speciality_522">
+                <field name="name">OTORRINOLARINGOLOGIA Y CIRUGIA DE CABEZA Y CUELLO</field>
         </record> 
-        <record model='doctor.speciality' id='530'>
-                <field name='name'>PATOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_530">
+                <field name="name">PATOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='531'>
-                <field name='name'>PATOLOGIA ANATOMICA Y CLINICA</field>
+        <record model="doctor.speciality" id="data_speciality_531">
+                <field name="name">PATOLOGIA ANATOMICA Y CLINICA</field>
         </record> 
-        <record model='doctor.speciality' id='532'>
-                <field name='name'>PATOLOGIA INFECCIOSA</field>
+        <record model="doctor.speciality" id="data_speciality_532">
+                <field name="name">PATOLOGIA INFECCIOSA</field>
         </record> 
-        <record model='doctor.speciality' id='533'>
-                <field name='name'>PATOLOGIA ONCOLOGICA</field>
+        <record model="doctor.speciality" id="data_speciality_533">
+                <field name="name">PATOLOGIA ONCOLOGICA</field>
         </record> 
-        <record model='doctor.speciality' id='534'>
-                <field name='name'>PATOLOGIA ORAL Y MEDIOS DIAGNOSTICOS</field>
+        <record model="doctor.speciality" id="data_speciality_534">
+                <field name="name">PATOLOGIA ORAL Y MEDIOS DIAGNOSTICOS</field>
         </record> 
-        <record model='doctor.speciality' id='535'>
-                <field name='name'>PATOLOGIA Y CIRUGIA BUCAL</field>
+        <record model="doctor.speciality" id="data_speciality_535">
+                <field name="name">PATOLOGIA Y CIRUGIA BUCAL</field>
         </record> 
-        <record model='doctor.speciality' id='536'>
-                <field name='name'>PATOLOGIA Y MEDICINA DE LABORATORIO</field>
+        <record model="doctor.speciality" id="data_speciality_536">
+                <field name="name">PATOLOGIA Y MEDICINA DE LABORATORIO</field>
         </record> 
-        <record model='doctor.speciality' id='550'>
-                <field name='name'>PEDIATRIA</field>
+        <record model="doctor.speciality" id="data_speciality_550">
+                <field name="name">PEDIATRIA</field>
         </record> 
-        <record model='doctor.speciality' id='551'>
-                <field name='name'>PEDIATRIA PERINATAL Y NEONATOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_551">
+                <field name="name">PEDIATRIA PERINATAL Y NEONATOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='560'>
-                <field name='name'>PERIODONCIA</field>
+        <record model="doctor.speciality" id="data_speciality_560">
+                <field name="name">PERIODONCIA</field>
         </record> 
-        <record model='doctor.speciality' id='561'>
-                <field name='name'>PERIODONCIA Y BIOLOGIA ORAL</field>
+        <record model="doctor.speciality" id="data_speciality_561">
+                <field name="name">PERIODONCIA Y BIOLOGIA ORAL</field>
         </record> 
-        <record model='doctor.speciality' id='562'>
-                <field name='name'>PERIODONCIA Y MEDICINA ORAL</field>
+        <record model="doctor.speciality" id="data_speciality_562">
+                <field name="name">PERIODONCIA Y MEDICINA ORAL</field>
         </record> 
-        <record model='doctor.speciality' id='563'>
-                <field name='name'>PERIODONCIA Y OSEOINTEGRACION</field>
+        <record model="doctor.speciality" id="data_speciality_563">
+                <field name="name">PERIODONCIA Y OSEOINTEGRACION</field>
         </record> 
-        <record model='doctor.speciality' id='570'>
-                <field name='name'>PROSTODONCIA</field>
+        <record model="doctor.speciality" id="data_speciality_570">
+                <field name="name">PROSTODONCIA</field>
         </record> 
-        <record model='doctor.speciality' id='571'>
-                <field name='name'>PROSTODONCIA, OCLUSION Y ARTICULACION TEMPOROMANDIBULAR</field>
+        <record model="doctor.speciality" id="data_speciality_571">
+                <field name="name">PROSTODONCIA, OCLUSION Y ARTICULACION TEMPOROMANDIBULAR</field>
         </record> 
-        <record model='doctor.speciality' id='580'>
-                <field name='name'>PROTESIS PERIODONTAL</field>
+        <record model="doctor.speciality" id="data_speciality_580">
+                <field name="name">PROTESIS PERIODONTAL</field>
         </record> 
-        <record model='doctor.speciality' id='590'>
-                <field name='name'>PSIQUIATRIA</field>
+        <record model="doctor.speciality" id="data_speciality_590">
+                <field name="name">PSIQUIATRIA</field>
         </record> 
-        <record model='doctor.speciality' id='600'>
-                <field name='name'>RADIODIAGNOSTICO</field>
+        <record model="doctor.speciality" id="data_speciality_600">
+                <field name="name">RADIODIAGNOSTICO</field>
         </record> 
-        <record model='doctor.speciality' id='601'>
-                <field name='name'>RADIOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_601">
+                <field name="name">RADIOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='602'>
-                <field name='name'>RADIOLOGIA E IMÁGENES DIAGNOSTICAS</field>
+        <record model="doctor.speciality" id="data_speciality_602">
+                <field name="name">RADIOLOGIA E IMÁGENES DIAGNOSTICAS</field>
         </record> 
-        <record model='doctor.speciality' id='603'>
-                <field name='name'>RADIOTERAPIA</field>
+        <record model="doctor.speciality" id="data_speciality_603">
+                <field name="name">RADIOTERAPIA</field>
         </record> 
-        <record model='doctor.speciality' id='610'>
-                <field name='name'>REHABILITACION CARDIOPULMONAR</field>
+        <record model="doctor.speciality" id="data_speciality_610">
+                <field name="name">REHABILITACION CARDIOPULMONAR</field>
         </record> 
-        <record model='doctor.speciality' id='611'>
-                <field name='name'>REHABILITACION DEL MIEMBRO SUPERIOR</field>
+        <record model="doctor.speciality" id="data_speciality_611">
+                <field name="name">REHABILITACION DEL MIEMBRO SUPERIOR</field>
         </record> 
-        <record model='doctor.speciality' id='612'>
-                <field name='name'>REHABILITACION EN ENFERMERIA</field>
+        <record model="doctor.speciality" id="data_speciality_612">
+                <field name="name">REHABILITACION EN ENFERMERIA</field>
         </record> 
-        <record model='doctor.speciality' id='613'>
-                <field name='name'>REHABILITACION ONCOLOGICA</field>
+        <record model="doctor.speciality" id="data_speciality_613">
+                <field name="name">REHABILITACION ONCOLOGICA</field>
         </record> 
-        <record model='doctor.speciality' id='614'>
-                <field name='name'>REHABILITACION ORAL</field>
+        <record model="doctor.speciality" id="data_speciality_614">
+                <field name="name">REHABILITACION ORAL</field>
         </record> 
-        <record model='doctor.speciality' id='615'>
-                <field name='name'>REHABILITACION Y EDUCACION VOCAL</field>
+        <record model="doctor.speciality" id="data_speciality_615">
+                <field name="name">REHABILITACION Y EDUCACION VOCAL</field>
         </record> 
-        <record model='doctor.speciality' id='620'>
-                <field name='name'>REUMATOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_620">
+                <field name="name">REUMATOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='630'>
-                <field name='name'>SALUD AMBIENTAL</field>
+        <record model="doctor.speciality" id="data_speciality_630">
+                <field name="name">SALUD AMBIENTAL</field>
         </record> 
-        <record model='doctor.speciality' id='631'>
-                <field name='name'>SALUD Y MEDIO AMBIENTE</field>
+        <record model="doctor.speciality" id="data_speciality_631">
+                <field name="name">SALUD Y MEDIO AMBIENTE</field>
         </record> 
-        <record model='doctor.speciality' id='640'>
-                <field name='name'>SALUD PUBLICA</field>
+        <record model="doctor.speciality" id="data_speciality_640">
+                <field name="name">SALUD PUBLICA</field>
         </record> 
-        <record model='doctor.speciality' id='650'>
-                <field name='name'>SALUD COMUNITARIA</field>
+        <record model="doctor.speciality" id="data_speciality_650">
+                <field name="name">SALUD COMUNITARIA</field>
         </record> 
-        <record model='doctor.speciality' id='660'>
-                <field name='name'>SALUD FAMILIAR</field>
+        <record model="doctor.speciality" id="data_speciality_660">
+                <field name="name">SALUD FAMILIAR</field>
         </record> 
-        <record model='doctor.speciality' id='661'>
-                <field name='name'>SALUD FAMILIAR Y COMUNITARIA</field>
+        <record model="doctor.speciality" id="data_speciality_661">
+                <field name="name">SALUD FAMILIAR Y COMUNITARIA</field>
         </record> 
-        <record model='doctor.speciality' id='670'>
-                <field name='name'>SALUD MATERNO INFANTIL</field>
+        <record model="doctor.speciality" id="data_speciality_670">
+                <field name="name">SALUD MATERNO INFANTIL</field>
         </record> 
-        <record model='doctor.speciality' id='680'>
-                <field name='name'>SALUD MENTAL Y FARMACODEPENDENCIA</field>
+        <record model="doctor.speciality" id="data_speciality_680">
+                <field name="name">SALUD MENTAL Y FARMACODEPENDENCIA</field>
         </record> 
-        <record model='doctor.speciality' id='690'>
-                <field name='name'>SALUD OCUPACIONAL</field>
+        <record model="doctor.speciality" id="data_speciality_690">
+                <field name="name">SALUD OCUPACIONAL</field>
         </record> 
-        <record model='doctor.speciality' id='691'>
-                <field name='name'>SALUD OCUPACIONAL Y PROTECCION DE RIESGOS LABORALES</field>
+        <record model="doctor.speciality" id="data_speciality_691">
+                <field name="name">SALUD OCUPACIONAL Y PROTECCION DE RIESGOS LABORALES</field>
         </record> 
-        <record model='doctor.speciality' id='700'>
-                <field name='name'>SEMIOLOGIA Y CIRUGIA ORAL</field>
+        <record model="doctor.speciality" id="data_speciality_700">
+                <field name="name">SEMIOLOGIA Y CIRUGIA ORAL</field>
         </record> 
-        <record model='doctor.speciality' id='710'>
-                <field name='name'>TERAPIA FAMILIAR</field>
+        <record model="doctor.speciality" id="data_speciality_710">
+                <field name="name">TERAPIA FAMILIAR</field>
         </record> 
-        <record model='doctor.speciality' id='720'>
-                <field name='name'>TERAPIA MANUAL</field>
+        <record model="doctor.speciality" id="data_speciality_720">
+                <field name="name">TERAPIA MANUAL</field>
         </record> 
-        <record model='doctor.speciality' id='730'>
-                <field name='name'>TERAPIA RESPIRATORIA PEDIATRICA</field>
+        <record model="doctor.speciality" id="data_speciality_730">
+                <field name="name">TERAPIA RESPIRATORIA PEDIATRICA</field>
         </record> 
-        <record model='doctor.speciality' id='740'>
-                <field name='name'>TOXICOLOGIA CLINICA</field>
+        <record model="doctor.speciality" id="data_speciality_740">
+                <field name="name">TOXICOLOGIA CLINICA</field>
         </record> 
-        <record model='doctor.speciality' id='750'>
-                <field name='name'>UROLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_750">
+                <field name="name">UROLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='751'>
-                <field name='name'>UROLOGIA ONCOLOGICA</field>
+        <record model="doctor.speciality" id="data_speciality_751">
+                <field name="name">UROLOGIA ONCOLOGICA</field>
         </record> 
-        <record model='doctor.speciality' id='760'>
-                <field name='name'>GENETICA HUMANA</field>
+        <record model="doctor.speciality" id="data_speciality_760">
+                <field name="name">GENETICA HUMANA</field>
         </record> 
-        <record model='doctor.speciality' id='770'>
-                <field name='name'>INMUNOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_770">
+                <field name="name">INMUNOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='780'>
-                <field name='name'>VIROLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_780">
+                <field name="name">VIROLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='781'>
-                <field name='name'>PSICOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_781">
+                <field name="name">PSICOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='782'>
-                <field name='name'>FONOAUDIOLOGIA</field>
+        <record model="doctor.speciality" id="data_speciality_782">
+                <field name="name">FONOAUDIOLOGIA</field>
         </record> 
-        <record model='doctor.speciality' id='999'>
-                <field name='name'>OTRA ESPECIALIDAD NO CLASIFICADA</field>
+        <record model="doctor.speciality" id="data_speciality_999">
+                <field name="name">OTRA ESPECIALIDAD NO CLASIFICADA</field>
         </record> 
     </data>
 </odoo>
