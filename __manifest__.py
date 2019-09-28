@@ -45,13 +45,14 @@
 	
 
 
-
+		'data/doctor_data_physical_exam_data.xml',
+		'data/doctor_type_antecedent_data.xml',
 		'data/doctor_administration_route_data.xml',
 		'data/doctor_pharmaceutical_form_data.xml',
 		'data/doctor_product_drugs_data.xml',
 		'data/doctor_product_drugs_inherit_data.xml',
 
-		'data/doctor_atc_data.xml',
+
 		'data/doctor_diseases_data.xml',
 		'data/doctor_health_procedures_data.xml',
 	
