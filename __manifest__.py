@@ -57,7 +57,8 @@
 		'data/doctor_health_procedures_data.xml',
 	
 		'data/doctor_profession_data.xml',
-		'data/doctor_speciality_data.xml',
+		#'data/doctor_speciality_data.xml',
+		'data/doctor_dose_unit.xml',
 		'data/doctor_stratum_data.xml',
 
 

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+        <record model='doctor.dose_unit' id='doctor_dose_unit_kg'>
+                <field name='code'>kg</field>
+                <field name='name'>kilogramos</field>
+        </record> 
+        <record model='doctor.dose_unit' id='doctor_dose_unit_g'>
+                <field name='code'>g</field>
+                <field name='name'>gramos</field>
+        </record> 
+        <record model='doctor.dose_unit' id='doctor_dose_unit_mg'>
+                <field name='code'>mg</field>
+                <field name='name'>miligramos</field>
+        </record> 
+        <record model='doctor.dose_unit' id='doctor_dose_unit_mcg'>
+                <field name='code'>mcg</field>
+                <field name='name'>microgramos</field>
+        </record> 
+        <record model='doctor.dose_unit' id='doctor_dose_unit_l'>
+                <field name='code'>l</field>
+                <field name='name'>litro</field>
+        </record> 
+        <record model='doctor.dose_unit' id='doctor_dose_unit_ml'>
+                <field name='code'>ml</field>
+                <field name='name'>mililitro</field>
+        </record> 
+        <record model='doctor.dose_unit' id='doctor_dose_unit_mcl'>
+                <field name='code'>mcl</field>
+                <field name='name'>microlitro</field>
+        </record> 
+        <record model='doctor.dose_unit' id='doctor_dose_unit_mol'>
+                <field name='code'>mol</field>
+                <field name='name'>mole</field>
+        </record> 
+        <record model='doctor.dose_unit' id='doctor_dose_unit_mmol'>
+                <field name='code'>mmol</field>
+                <field name='name'>milimole</field>
+        </record> 
+        <record model='doctor.dose_unit' id='doctor_dose_unit_mcmole'>
+                <field name='code'>mcmole</field>
+                <field name='name'>micromole</field>
+        </record> 
+        <record model='doctor.dose_unit' id='doctor_dose_unit_iu'>
+                <field name='code'>iu</field>
+                <field name='name'>unidades internacionales</field>
+        </record> 
+        <record model='doctor.dose_unit' id='doctor_dose_unit_kiu'>
+                <field name='code'>kiu</field>
+                <field name='name'>miles de iu</field>
+        </record> 
+        <record model='doctor.dose_unit' id='doctor_dose_unit_Miu'>
+                <field name='code'>Miu</field>
+                <field name='name'>Millones de iu</field>
+        </record> 
+        <record model='doctor.dose_unit' id='doctor_dose_unit_%'>
+                <field name='code'>%</field>
+                <field name='name'>porcentaje</field>
+        </record> 
+        <record model='doctor.dose_unit' id='doctor_dose_unit_gtt'>
+                <field name='code'>gtt</field>
+                <field name='name'>gotas</field>
+        </record> 
+        <record model='doctor.dose_unit' id='doctor_dose_unit_DF'>
+                <field name='code'>DF</field>
+                <field name='name'>forma de dosificación</field>
+        </record> 
+    </data>
+</odoo>
+        
